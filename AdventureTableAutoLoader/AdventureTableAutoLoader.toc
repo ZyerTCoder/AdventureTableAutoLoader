@@ -3,7 +3,8 @@
 ## Author: Zyer
 ## Version: 0.0
 ## SavedVariables: ZyersATALTeams
+## SavedVariablesPerCharacter: ZyersATALidConv
+## SavedVariablesPerCharacter: ZyersATALAuto
 
 tables.lua
-init.lua
 main.lua
