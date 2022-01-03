@@ -1,11 +1,10 @@
 local this, T = ...
 -- TODO
--- add tons of teams
 -- for mid 2319 save a team with watcher vesperbloom and yiralya
--- after successfully populating a mission, make sure it disables other followers so they cant be used in subsequent missions
+-- IMPORTANT FOR OTHER COVS after successfully populating a mission, make sure it disables other followers so they cant be used in subsequent missions
 -- make it close the mission table when its done on auto mode with C_Garrison.CloseMissionNPC youll need to count the end of the ticker
 -- make it say if a follower went below 50% on a mission
--- dont let followers below 100% hp go on non any missions
+-- dont let followers below 100% hp go on non-any missions
 
 local function getTableLen(tab)
     local c = 0
