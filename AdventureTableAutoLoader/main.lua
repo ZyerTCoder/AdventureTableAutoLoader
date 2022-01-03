@@ -3,10 +3,11 @@ local this, T = ...
 -- add tons of teams
 -- for mid 2319 save a team with watcher vesperbloom and yiralya
 -- after successfully populating a mission, make sure it disables other followers so they cant be used in subsequent missions
--- see if you can take over completeting the missions too 
--- then attach the whole thing to the GARRISON_MISSION_NPC_OPENED event :winkwinkwink:
+-- make it close the mission table when its done on auto mode with C_Garrison.CloseMissionNPC youll need to count the end of the ticker
+-- make it say if a follower went below 50% on a mission
+-- dont let followers below 100% hp go on non any missions
 
-local getTableLen = function(tab)
+local function getTableLen(tab)
     local c = 0
     for k, v in pairs(tab) do
         c = c + 1
@@ -14,7 +15,7 @@ local getTableLen = function(tab)
     return c
 end
 
-local isInTable = function(tab, val)
+local function isInTable(tab, val)
     local set = {}
     for _, l in pairs(tab) do set[l] = true end
     if set[val] then
@@ -23,7 +24,7 @@ local isInTable = function(tab, val)
     return false
 end
 
-local addTeam = function(args)
+local function addTeam(args)
     if not C_Garrison.IsAtGarrisonMissionNPC() then
         print("Not at the table.")
         return
@@ -33,7 +34,7 @@ local addTeam = function(args)
     end
 
     if not ZyersATALTeams then
-        print("Saved far == nil, this is weird")
+        print("ZyersATALTeams == nil, this is weird")
     end
 
     local mid = CovenantMissionFrame.MissionTab.MissionPage.missionInfo.missionID
@@ -92,12 +93,12 @@ local addTeam = function(args)
     print(string.format("Saved this team to %d, there are %d teams saved to it.", mid, getTableLen(ZyersATALTeams[mid])))
 end
 
-local removeAllTeamsFromMissionID = function(mid)
+local function removeAllTeamsFromMissionID(mid)
     ZyersATALTeams[tonumber(mid)] = nil
-    print("Removed %s.", mid)
+    print(string.format("Removed %s.", mid))
 end
 
-local getTeamString = function(team)
+local function getTeamString(team)
     local troops = 0
     local companions = {}
     for _, mem in pairs(team) do
@@ -110,7 +111,7 @@ local getTeamString = function(team)
     return string.format("%s and %d troops", table.concat(companions, ", "), troops)
 end
 
-local populateMission = function(mission, team, testMode)
+local function populateMission(mission, team, testMode)
     local sucess = true
     local order = {2, 3, 4, 0, 1}
     for _, v in ipairs(order) do
@@ -123,13 +124,13 @@ local populateMission = function(mission, team, testMode)
         if not sucess then break end
     end
     if not sucess then
-        print(string.format("Failed to add %s to %s. ", getTeamString(team), mission.name))
+        print(string.format("|cFFFF0000Failed to add %s to %s. ", getTeamString(team), mission.name))
         return false
     end
     return true
 end
 
-local getMissions = function()
+local function getMissions()
     local missions = C_Garrison.GetAvailableMissions(123)
     print(string.format("There are %d missions.", #missions))
     for i = 1,#missions do
@@ -146,7 +147,7 @@ local getMissions = function()
     print("Got missions.")
 end
 
-local getNumberOfTeamsString = function(mid)
+local function getNumberOfTeamsString(mid)
     if not mid then
         return "|cFFFF0000No missionID was given"
     elseif not ZyersATALTeams[mid] or #ZyersATALTeams[mid] == 0 then
@@ -157,7 +158,7 @@ local getNumberOfTeamsString = function(mid)
         local n = getTableLen(ZyersATALTeams[mid])
         if n == 1 then
             return "|cFFFFFF00Has 1 team"
-        elseif n > 20 then
+        elseif n > 15 then
             return string.format("|cFF00FF00Has %d teams", n)
         elseif n == 1 then
             return string.format("|cFFFFFF00Has %d team", n)
@@ -168,7 +169,7 @@ local getNumberOfTeamsString = function(mid)
     return "|cFFFF0000????"
 end
 
-local getAvailableFollowersSorted = function()
+local function getAvailableFollowersSorted()
     local unsortedFollowers = C_Garrison.GetFollowers(123)
     local followers = {}
     for _, prio in ipairs(T.NightFae.FollowerPrio) do
@@ -182,7 +183,8 @@ local getAvailableFollowersSorted = function()
     return followers
 end
 
-local makeTeams = function(testMode)
+local function makeTeams(testMode)
+    local t0 = debugprofilestop()
     -- order available missions by interest
     local missionsToDo = {}
     local missions = C_Garrison.GetAvailableMissions(123)
@@ -200,6 +202,9 @@ local makeTeams = function(testMode)
                     elseif k == "itemID" then
                         if reward.itemID == reTyp then
                             local _, ilink= GetItemInfo(reTyp)
+                            if not ilink then
+                                ilink = tostring(reTyp)
+                            end
                             print(string.format("%s %s for %s.  %s", mission.missionID, mission.name, ilink, getNumberOfTeamsString(mission.missionID)))
                             missionsToDo[#missionsToDo +1] = mission
                         end
@@ -288,12 +293,15 @@ local makeTeams = function(testMode)
                 end
             end
         end
-        C_Timer.NewTicker(0.5, queueTick, #queue)
+        if #queue > 0 then
+            C_Timer.NewTicker(0.5, queueTick, #queue)
+        end
     end
+    print(string.format("Done, took %f ms.", debugprofilestop() - t0))
     return true
 end
 
-local getSavedTeamsInfo = function()
+local function getSavedTeamsInfo()
     local totalMissions = 0
     local totalTeams = 0
     local totalAnys = 0
@@ -310,25 +318,26 @@ local getSavedTeamsInfo = function()
     print(string.format("%d teams total.", totalTeams))
 end
 
-local fixSavedVars = function()
+local function fixSavedVars()
     if ZyersATALTeams == nil then
         ZyersATALTeams = {}
     end
     if ZyersATALidConv == nil then
         ZyersATALidConv = {}
     end
+
     local fols = C_Garrison.GetFollowers(123)
-    if #fols > #ZyersATALidConv then
-        for _, f in ipairs(C_Garrison.GetFollowers(123)) do
-            ZyersATALidConv[f.garrFollowerID] = f.followerID
-        end
-        for _,f in ipairs(C_Garrison.GetAutoTroops(123)) do
-            ZyersATALidConv[f.garrFollowerID] = f.followerID
-        end
+    -- if not fols then C_Timer.NewTicker(1, fixSavedVars, 1) return end
+    if #fols < #ZyersATALidConv then return end
+    for _, f in ipairs(C_Garrison.GetFollowers(123)) do
+        ZyersATALidConv[f.garrFollowerID] = f.followerID
+    end
+    for _,f in ipairs(C_Garrison.GetAutoTroops(123)) do
+        ZyersATALidConv[f.garrFollowerID] = f.followerID
     end
 end
 
-local toggleAuto = function()
+local function toggleAuto()
     if ZyersATALAuto then
         ZyersATALAuto = nil
         print("Auto is off.")
@@ -338,19 +347,19 @@ local toggleAuto = function()
     end
 end
 
-local printCompleteMissionResponse = function(success, ...)
+local function printCompleteMissionResponse(success, thing)
     local mid = arg[1]
     local mission = C_Garrison.GetBasicMissionInfo(mid)
+    -- print("btw, complete_response returns success as", arg[2])
     if success then
         print(string.format("Completed %d %s", mid, mission.name))
     else
-        print(string.format("Failed %d %s and had these followers, go check manually", mid, mission.name))
-        DevTools_Dump(arg[4])
+        print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually", mid))
+        DevTools_Dump(thing)
     end
 end
 
 local frame = CreateFrame("FRAME")
-frame:RegisterEvent("ADDON_LOADED")
 frame:RegisterEvent("GARRISON_MISSION_NPC_OPENED")
 frame:RegisterEvent("GARRISON_MISSION_NPC_CLOSED")
 frame:RegisterEvent("GARRISON_MISSION_COMPLETE_RESPONSE")
@@ -358,39 +367,33 @@ frame:RegisterEvent("GARRISON_MISSION_BONUS_ROLL_COMPLETE")
 local npcFlag = true
 local completedMissions = {}
 function frame:OnEvent(event, ...)
-    print("reacting to" , event, ...)
+    --print("reacting to" , event, ...)
     arg = {...}
-    if event == "ADDON_LOADED" and arg[1] == "AdventureTableAutoLoader" then
-        fixSavedVars()
-    elseif event == "GARRISON_MISSION_NPC_OPENED" then
+    if event == "GARRISON_MISSION_NPC_OPENED" then
         if arg[1] == 123 then
-            print("in open")
+            if npcFlag then
+                fixSavedVars()
+            end
             if ZyersATALAuto and npcFlag then
                 npcFlag = nil
-                local t0 = debugprofilestop()
-                for _, m in pairs(C_Garrison.GetCompleteMissions(123)) do 
+                for _, m in pairs(C_Garrison.GetCompleteMissions(123)) do
                     local i = m.missionID
                     C_Garrison.MarkMissionComplete(i)
                     C_Garrison.MissionBonusRoll(i)
-                end 
-                print("running make")
-                makeTeams("test")
-                print(string.format("Done, took %f ms.", debugprofilestop() - t0))
+                end
+                --C_Timer.After(1, makeTeams, 1)
             end
         end
     elseif event == "GARRISON_MISSION_NPC_CLOSED" then
-        print("in close")
         npcFlag = true
     elseif event == "GARRISON_MISSION_COMPLETE_RESPONSE" then
-        completedMissions[arg[1]] = arg
+        completedMissions[arg[1]] = arg[5]
     elseif event == "GARRISON_MISSION_BONUS_ROLL_COMPLETE" then
-        printCompleteMissionResponse(arg    [2], completedMissions[arg[1]])
+        printCompleteMissionResponse(arg[2], completedMissions[arg[1]])
         completedMissions[arg[1]] = nil
     end
 end
 frame:SetScript("OnEvent", frame.OnEvent);
-
--- C_Garrison.CloseMissionNPC
 
 SLASH_ATAL1 = "/atal"
 SLASH_ATAL2 = "/zyer"
@@ -399,9 +402,7 @@ SlashCmdList["ATAL"] = function(cmd)
     local args = { strsplit(" ", string.lower(cmd)) }
     cmd = args[1]
     if cmd == "mk" or cmd == "make" then
-        local t0 = debugprofilestop()
         makeTeams(args[2])
-        print(string.format("Done, took %f ms.", debugprofilestop() - t0))
     elseif cmd == "add" then
         addTeam()
     elseif cmd == "rm" or cmd == "remove" then
