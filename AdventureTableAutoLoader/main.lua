@@ -232,7 +232,7 @@ local function makeTeams(testMode)
         return false
     end
 
-    do
+    do -- for the queue space
         -- queue functions
         local queue = {}
         local queueTick = function()
@@ -256,35 +256,34 @@ local function makeTeams(testMode)
             local missionSent = false
             for k, fol in pairs(followers) do
                 if missionSent then break end
-                if ZyersATALTeams[mission.missionID] then
-                    if ZyersATALTeams[mission.missionID].any then
-                        local team = {}
-                        local _tmp = ZyersATALTeams[mission.missionID][1]
-                        for i = 0, 4 do
-                            local v = _tmp[i]
-                            if not v then
-                                team[i] = fol
-                            else
-                                team[i] = v
-                            end
+                if not ZyersATALTeams[mission.missionID] then break end
+                if ZyersATALTeams[mission.missionID].any then
+                    local team = {}
+                    local _tmp = ZyersATALTeams[mission.missionID][1]
+                    for i = 0, 4 do
+                        local v = _tmp[i]
+                        if not v then
+                            team[i] = fol
+                        else
+                            team[i] = v
                         end
-                        if populateMission(mission, team, testMode) then
-                            missionSent = true
-                            followers[k] = nil
-                            queueAdd({mission, team})
-                            break
-                        end
-                    else
-                        for _, team in pairs(ZyersATALTeams[mission.missionID]) do
-                            if missionSent then break end
-                            for _, member in pairs(team) do
-                                if member[1] == fol[1] then
-                                    if populateMission(mission, team, testMode) then
-                                        missionSent = true
-                                        followers[k] = nil
-                                        queueAdd({mission, team})
-                                        break
-                                    end
+                    end
+                    if populateMission(mission, team, testMode) then
+                        missionSent = true
+                        followers[k] = nil
+                        queueAdd({mission, team})
+                        break
+                    end
+                else
+                    for _, team in pairs(ZyersATALTeams[mission.missionID]) do
+                        if missionSent then break end
+                        for _, member in pairs(team) do
+                            if member[1] == fol[1] then
+                                if populateMission(mission, team, testMode) then
+                                    missionSent = true
+                                    followers[k] = nil
+                                    queueAdd({mission, team})
+                                    break
                                 end
                             end
                         end
@@ -370,19 +369,18 @@ function frame:OnEvent(event, ...)
     --print("reacting to" , event, ...)
     local arg = {...}
     if event == "GARRISON_MISSION_NPC_OPENED" then
-        if arg[1] == 123 then
-            if npcFlag then
-                fixSavedVars()
+        if not (arg[1] == 123) then return end
+        if npcFlag then
+            fixSavedVars()
+        end
+        if ZyersATALAuto and npcFlag then
+            npcFlag = nil
+            for _, m in pairs(C_Garrison.GetCompleteMissions(123)) do
+                local i = m.missionID
+                C_Garrison.MarkMissionComplete(i)
+                C_Garrison.MissionBonusRoll(i)
             end
-            if ZyersATALAuto and npcFlag then
-                npcFlag = nil
-                for _, m in pairs(C_Garrison.GetCompleteMissions(123)) do
-                    local i = m.missionID
-                    C_Garrison.MarkMissionComplete(i)
-                    C_Garrison.MissionBonusRoll(i)
-                end
-                --C_Timer.After(1, makeTeams, 1)
-            end
+            --C_Timer.After(1, makeTeams, 1)
         end
     elseif event == "GARRISON_MISSION_NPC_CLOSED" then
         npcFlag = true
@@ -421,7 +419,7 @@ SlashCmdList["ATAL"] = function(cmd)
 '/atal make' to send missions
 '/atal add' to add a new team
 '/atal remove <id>' to remove every team from a mission
-'/atal toggleauto' to run as soon as you interact with the mission table]])
+'/atal toggleauto' to run on interact with the mission table]])
     end
 end
 
