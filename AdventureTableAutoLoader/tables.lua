@@ -1,10 +1,10 @@
 local _, T = ...
 
 T.RewardPrio = {
-	-- Gold
-	{"title", "Money Reward"},
 	-- Veiled Runes
 	{"itemID", 181468},
+	-- Gold
+	{"title", "Money Reward"},
 	-- XP Items, Epic, Rare, Uncommon
 	{"itemID", 188657,},
 	{"itemID", 188656,},
