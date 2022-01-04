@@ -5,6 +5,7 @@
 ## SavedVariables: ZyersATALTeams
 ## SavedVariablesPerCharacter: ZyersATALidConv
 ## SavedVariablesPerCharacter: ZyersATALAuto
+## SavedVariablesPerCharacter: ZyersATALLog
 
 tables.lua
 main.lua

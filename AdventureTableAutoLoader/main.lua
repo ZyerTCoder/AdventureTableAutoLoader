@@ -346,15 +346,16 @@ local function toggleAuto()
     end
 end
 
-local function printCompleteMissionResponse(success, thing)
-    local mid = arg[1]
+local function printCompleteMissionResponse(success, t)
+    -- print("btw, complete_response input with", arg)
+    local mid = t[1]
     local mission = C_Garrison.GetBasicMissionInfo(mid)
-    -- print("btw, complete_response returns success as", arg[2])
     if success then
         print(string.format("Completed %d %s", mid, mission.name))
     else
-        print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually", mid))
-        DevTools_Dump(thing)
+        print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
+        DevTools_Dump(t[5])
+        ZyersATALLog = t
     end
 end
 
@@ -367,7 +368,7 @@ local npcFlag = true
 local completedMissions = {}
 function frame:OnEvent(event, ...)
     --print("reacting to" , event, ...)
-    arg = {...}
+    local arg = {...}
     if event == "GARRISON_MISSION_NPC_OPENED" then
         if arg[1] == 123 then
             if npcFlag then
@@ -386,7 +387,8 @@ function frame:OnEvent(event, ...)
     elseif event == "GARRISON_MISSION_NPC_CLOSED" then
         npcFlag = true
     elseif event == "GARRISON_MISSION_COMPLETE_RESPONSE" then
-        completedMissions[arg[1]] = arg[5]
+        -- completedMissions[arg[1]] = arg[5]
+        completedMissions[arg[1]] = arg
     elseif event == "GARRISON_MISSION_BONUS_ROLL_COMPLETE" then
         printCompleteMissionResponse(arg[2], completedMissions[arg[1]])
         completedMissions[arg[1]] = nil
