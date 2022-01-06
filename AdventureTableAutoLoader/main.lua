@@ -25,10 +25,14 @@ end
 
 local function addTeam(args)
     if not C_Garrison.IsAtGarrisonMissionNPC() then
-        print("Not at the table.")
+        if ZyersATALVerbose > 0 then
+            print("Not at the table.")
+        end
         return
     elseif not CovenantMissionFrame.MissionTab.MissionPage.missionInfo then
-        print("Open a mission to add to it.")
+        if ZyersATALVerbose > 0 then
+            print("Open a mission to add to it.")
+        end
         return
     end
 
@@ -129,43 +133,26 @@ local function populateMission(mission, team, testMode)
     return true
 end
 
-local function getMissions()
-    local missions = C_Garrison.GetAvailableMissions(123)
-    print(string.format("There are %d missions.", #missions))
-    for i = 1,#missions do
-        print(string.format("%s %d", missions[i].name, missions[i].missionID))
-        local fol = missions[i].rewards
-        for j = 1, #fol do
-            local n = fol[j]
-            print(" item:")
-            for k, v in pairs(n) do
-                print(k, v)
-            end
-        end
-    end
-    print("Got missions.")
-end
-
-local function getNumberOfTeamsString(mid)
+local function getNumberOfTeams(mid)
     if not mid then
-        return "|cFFFF0000No missionID was given"
+        return -1, "|cFFFF0000No missionID was given"
     elseif not ZyersATALTeams[mid] or #ZyersATALTeams[mid] == 0 then
-        return "|cFFFF0000Has no teams"
+        return 0, "|cFFFF0000Has no teams"
     elseif ZyersATALTeams[mid].any then
-        return "|cFF00FF00Can be done with any team"
+        return 1000, "|cFF00FF00Can be done with any team"
     else
         local n = getTableLen(ZyersATALTeams[mid])
         if n == 1 then
-            return "|cFFFFFF00Has 1 team"
+            return n, "|cFFFFFF00Has 1 team"
         elseif n > 15 then
-            return string.format("|cFF00FF00Has %d teams", n)
+            return n, string.format("|cFF00FF00Has %d teams", n)
         elseif n == 1 then
-            return string.format("|cFFFFFF00Has %d team", n)
+            return n, string.format("|cFFFFFF00Has %d team", n)
         else
-            return string.format("|cFFFFFF00Has %d teams", n)
+            return n, string.format("|cFFFFFF00Has %d teams", n)
         end
     end
-    return "|cFFFF0000????"
+    return -1000, "|cFFFF0000????"
 end
 
 local function getAvailableFollowersSorted()
@@ -182,9 +169,7 @@ local function getAvailableFollowersSorted()
     return followers
 end
 
-local function makeTeams(testMode)
-    local t0 = debugprofilestop()
-    -- order available missions by interest
+local function getMissionsTodo()
     local missionsToDo = {}
     local missions = C_Garrison.GetAvailableMissions(123)
     for _, rewardType in ipairs(T.RewardPrio) do
@@ -195,8 +180,11 @@ local function makeTeams(testMode)
                     local k, reTyp = rewardType[1], rewardType[2]
                     if k == "title" then
                         if reward.title == reTyp then
-                            print(string.format("%s %s for %s.  %s", mission.missionID, mission.name, reTyp, getNumberOfTeamsString(mission.missionID)))
+                            local _, s = getNumberOfTeams(mission.missionID)
                             missionsToDo[#missionsToDo +1] = mission
+                            if ZyersATALVerbose == 3 then
+                                print(string.format("%s %s for %s.  %s", mission.missionID, mission.name, reTyp, s))
+                            end
                         end
                     elseif k == "itemID" then
                         if reward.itemID == reTyp then
@@ -204,14 +192,25 @@ local function makeTeams(testMode)
                             if not ilink then
                                 ilink = tostring(reTyp)
                             end
-                            print(string.format("%s %s for %s.  %s", mission.missionID, mission.name, ilink, getNumberOfTeamsString(mission.missionID)))
+                            local _, s = getNumberOfTeams(mission.missionID)
                             missionsToDo[#missionsToDo +1] = mission
+                            if ZyersATALVerbose == 3 then
+                                print(string.format("%s %s for %s.  %s", mission.missionID, mission.name, ilink, s))
+                            end
                         end
                     end
                 end
             end
         end
     end
+    return missionsToDo
+end
+
+local function makeTeams(testMode)
+    local t0 = debugprofilestop()
+
+    -- order available missions by interest
+    local missionsToDo = getMissionsTodo()
 
     -- check which followers are available and order them as per the prio list
     local followers = getAvailableFollowersSorted()
@@ -240,13 +239,19 @@ local function makeTeams(testMode)
             if not testMode then
                 C_Garrison.StartMission(v[1].missionID)
             end
-            print(string.format("Sent %s to %s.", getTeamString(v[2]), v[1].name))
             queue[i] = nil
+            if ZyersATALVerbose > 0 then
+                print(string.format("Sent %s to %s.", getTeamString(v[2]), v[1].name))
+            end
         end
 
         local queueAdd = function(v)
-            print(string.format("Added %s to the queue with %s", v[1].name, getTeamString(v[2])))
             queue[#queue+1] = v
+            if ZyersATALVerbose > 0 then
+                if ZyersATALVerbose >= 2 then
+                    print(string.format("Added %s to the queue with %s", v[1].name, getTeamString(v[2])))
+                end
+            end
         end
 
         -- for mission in missionsToDo
@@ -295,11 +300,13 @@ local function makeTeams(testMode)
             C_Timer.NewTicker(0.5, queueTick, #queue)
         end
     end
-    print(string.format("Done, took %f ms.", debugprofilestop() - t0))
+    if ZyersATALVerbose > 0 then
+        print(string.format("Took %f ms. ", debugprofilestop() - t0))
+    end
     return true
 end
 
-local function getSavedTeamsInfo()
+local function printSavedTeamsInfo()
     local totalMissions = 0
     local totalTeams = 0
     local totalAnys = 0
@@ -311,7 +318,7 @@ local function getSavedTeamsInfo()
             totalTeams = totalTeams + #mission
         end
     end
-    print(string.format("There are teams for %d missions.", totalMissions))
+    print(string.format("There are teams for %d/60 missions of interest.", totalMissions))
     print(string.format("%d of these can be done with any companion.", totalAnys))
     print(string.format("%d teams total.", totalTeams))
 end
@@ -335,13 +342,31 @@ local function fixSavedVars()
     end
 end
 
-local function toggleAuto()
-    if ZyersATALAuto then
-        ZyersATALAuto = nil
-        print("Auto is off.")
+local function changeSavedVar(var, value)
+    if var == "a" or var == "auto" then
+        if value then
+            ZyersATALAuto = value
+            print("Auto is " .. value)
+        elseif ZyersATALAuto then
+            ZyersATALAuto = nil
+            print("Auto is off.")
+        else
+            ZyersATALAuto = true
+            print("Auto is on.")
+        end
+    elseif var == "v" or var == "verbose" then
+        if value then
+            ZyersATALVerbose = tonumber(value)
+            print(string.format("Verbose level is %d.", ZyersATALVerbose))
+        elseif ZyersATALVerbose then
+            ZyersATALVerbose = nil
+            print(string.format("Verbose level is %d.", ZyersATALVerbose))
+        else
+            ZyersATALVerbose = 3
+            print(string.format("Verbose level is %d.", ZyersATALVerbose))
+        end
     else
-        ZyersATALAuto = true
-        print("Auto is on.")
+        print("Var not recognised.")
     end
 end
 
@@ -350,7 +375,9 @@ local function printCompleteMissionResponse(success, t)
     local mid = t[1]
     local mission = C_Garrison.GetBasicMissionInfo(mid)
     if success then
-        print(string.format("Completed %d %s", mid, mission.name))
+        if ZyersATALVerbose > 0 then
+            print(string.format("Completed %d %s", mid, mission.name))
+        end
     else
         print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
         DevTools_Dump(t[5])
@@ -385,7 +412,6 @@ function frame:OnEvent(event, ...)
     elseif event == "GARRISON_MISSION_NPC_CLOSED" then
         npcFlag = true
     elseif event == "GARRISON_MISSION_COMPLETE_RESPONSE" then
-        -- completedMissions[arg[1]] = arg[5]
         completedMissions[arg[1]] = arg
     elseif event == "GARRISON_MISSION_BONUS_ROLL_COMPLETE" then
         printCompleteMissionResponse(arg[2], completedMissions[arg[1]])
@@ -406,20 +432,33 @@ SlashCmdList["ATAL"] = function(cmd)
         addTeam()
     elseif cmd == "rm" or cmd == "remove" then
         removeAllTeamsFromMissionID(args[2])
-    elseif cmd == "ta" or cmd == "toggleauto" then
-        toggleAuto()
+    elseif cmd == "c" or cmd == "change" then
+        if args[2] then
+            changeSavedVar(args[2], args[3])
+        else
+            print("Choose a var: auto/verbose")
+        end
     elseif cmd == "g" or cmd == "get" then
-        getSavedTeamsInfo()
-        -- getMissions()
+        if not args[2] then
+            local missions = getMissionsTodo()
+            for _, mission in ipairs(missions) do
+                if getNumberOfTeams(mission.missionID) < 1 then
+                    message(string.format("\nThere are missions available without teams.\n%s", mission.name))
+                    break
+                end
+            end
+        elseif args[2] == "info" then
+            printSavedTeamsInfo()
+        end
     elseif cmd == "test" then
-        local t = getAvailableFollowersSorted()
-        print(#t)
+        message("STUFF")
     else
         print([[Welcome to Zyer's Adventure Table Auto Loader:
 '/atal make' to send missions
 '/atal add' to add a new team
 '/atal remove <id>' to remove every team from a mission
-'/atal toggleauto' to run on interact with the mission table]])
+'/atal change <var>' to change setting
+'/atal get' for info on teams saved]])
     end
 end
 

@@ -1,11 +1,12 @@
 ## Interface: 90105
 ## Title: Adventure Table Auto Loader
 ## Author: Zyer
-## Version: 0.0
+## Version: 1.0
 ## SavedVariables: ZyersATALTeams
 ## SavedVariablesPerCharacter: ZyersATALidConv
 ## SavedVariablesPerCharacter: ZyersATALAuto
 ## SavedVariablesPerCharacter: ZyersATALLog
+## SavedVariablesPerCharacter: ZyersATALVerbose
 
 tables.lua
 main.lua
