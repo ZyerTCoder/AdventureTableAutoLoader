@@ -1,7 +1,6 @@
 local this, T = ...
 -- TODO
 -- IMPORTANT FOR OTHER COVS after successfully populating a mission, make sure it disables other followers so they cant be used in subsequent missions
--- for mid 2319 save a team with watcher vesperbloom and yiralya
 -- make it close the mission table when its done on auto mode with C_Garrison.CloseMissionNPC youll need to count the end of the ticker
 -- make it say if a follower went below 50% on a mission
 -- dont let followers below 100% hp go on non-any missions
@@ -36,14 +35,14 @@ local function addTeam(args)
         return
     end
 
-    if not ZyersATALTeams then
-        print("ZyersATALTeams == nil, this is weird")
+    if not ZyersATALTeams[T.CurrCov] then
+        print("ZyersATALTeams[T.CurrCov] == nil, this is weird")
     end
 
     local mid = CovenantMissionFrame.MissionTab.MissionPage.missionInfo.missionID
     -- check if there already is an entry for this mission in the table
-    if ZyersATALTeams[mid] == nil then
-        ZyersATALTeams[mid] = {}
+    if ZyersATALTeams[T.CurrCov][mid] == nil then
+        ZyersATALTeams[T.CurrCov][mid] = {}
     end
     --/run local board = CovenantMissionFrame.MissionTab.MissionPage.Board.framesByBoardIndex; for i=0,4 do local ii=board[i].info;if ii then print(ii.isAutoTroop, ii.garrFollowerID, ii.name) end end
     local team = {}
@@ -64,21 +63,21 @@ local function addTeam(args)
     if noCompanions then
         if getTableLen(team) == 4 then
             print("No companions on this mission, adding as an open team.")
-            ZyersATALTeams[mid] = {team, any=true}
+            ZyersATALTeams[T.CurrCov][mid] = {team, any=true}
         else
             print("No companions on this mission, if you want to use this as an open team put in 4 troops.")
         end
         return
     end
 
-    if ZyersATALTeams[mid].any then
+    if ZyersATALTeams[T.CurrCov][mid].any then
         print("This mission has an open team already saved.")
         return
     end
     -- check if duplicate
-    -- if not getTableLen(ZyersATALTeams[mid]) then
+    -- if not getTableLen(ZyersATALTeams[T.CurrCov][mid]) then
 
-    for _, teamIn in ipairs(ZyersATALTeams[mid]) do
+    for _, teamIn in ipairs(ZyersATALTeams[T.CurrCov][mid]) do
         local isDupe = true
         for k, member in pairs(teamIn) do
             local newMember = team[k] or {}
@@ -92,12 +91,12 @@ local function addTeam(args)
         end
     end
     -- and should check if its a valid team
-    table.insert(ZyersATALTeams[mid], team)
-    print(string.format("Saved this team to %d, there are %d teams saved to it.", mid, getTableLen(ZyersATALTeams[mid])))
+    table.insert(ZyersATALTeams[T.CurrCov][mid], team)
+    print(string.format("Saved this team to %d, there are %d teams saved to it.", mid, getTableLen(ZyersATALTeams[T.CurrCov][mid])))
 end
 
 local function removeAllTeamsFromMissionID(mid)
-    ZyersATALTeams[tonumber(mid)] = nil
+    ZyersATALTeams[T.CurrCov][tonumber(mid)] = nil
     print(string.format("Removed %s.", mid))
 end
 
@@ -105,7 +104,7 @@ local function getTeamString(team)
     local troops = 0
     local companions = {}
     for _, mem in pairs(team) do
-        if isInTable(T.NightFae.TroopIDs, mem[1]) then
+        if isInTable(T.Covs[T.CurrCov].TroopIDs, mem[1]) then
             troops = troops + 1
         else
             companions[#companions+1] = mem[2]
@@ -136,12 +135,12 @@ end
 local function getNumberOfTeams(mid)
     if not mid then
         return -1, "|cFFFF0000No missionID was given"
-    elseif not ZyersATALTeams[mid] or #ZyersATALTeams[mid] == 0 then
+    elseif not ZyersATALTeams[T.CurrCov][mid] or #ZyersATALTeams[T.CurrCov][mid] == 0 then
         return 0, "|cFFFF0000Has no teams"
-    elseif ZyersATALTeams[mid].any then
+    elseif ZyersATALTeams[T.CurrCov][mid].any then
         return 1000, "|cFF00FF00Can be done with any team"
     else
-        local n = getTableLen(ZyersATALTeams[mid])
+        local n = getTableLen(ZyersATALTeams[T.CurrCov][mid])
         if n == 1 then
             return n, "|cFFFFFF00Has 1 team"
         elseif n > 15 then
@@ -158,7 +157,7 @@ end
 local function getAvailableFollowersSorted()
     local unsortedFollowers = C_Garrison.GetFollowers(123)
     local followers = {}
-    for _, prio in ipairs(T.NightFae.FollowerPrio) do
+    for _, prio in ipairs(T.Covs[T.CurrCov].FollowerPrio) do
         for _, fol in ipairs(unsortedFollowers) do
             if (fol.status == nil) and (prio[1] == fol.garrFollowerID) then
                 followers[#followers+1] = prio
@@ -204,6 +203,19 @@ local function getMissionsTodo()
         end
     end
     return missionsToDo
+end
+
+local function checkTeamAvailable(team, followers)
+    for _, member in pairs(team) do
+        local flag = false
+        for _, fol in pairs(followers) do
+            if member[1] == fol[1] or isInTable(T.Covs[T.CurrCov].TroopIDs, member[1]) then
+                flag = true
+            end
+        end
+        if not flag then return false end
+    end
+    return true
 end
 
 local function makeTeams(testMode)
@@ -258,13 +270,14 @@ local function makeTeams(testMode)
             -- for follower in followerPrio
                 -- if mission has team with this follower send
         for _, mission in ipairs(missionsToDo) do
+            -- print(mission.name)
             local missionSent = false
             for k, fol in pairs(followers) do
                 if missionSent then break end
-                if not ZyersATALTeams[mission.missionID] then break end
-                if ZyersATALTeams[mission.missionID].any then
+                if not ZyersATALTeams[T.CurrCov][mission.missionID] then break end
+                if ZyersATALTeams[T.CurrCov][mission.missionID].any then
                     local team = {}
-                    local _tmp = ZyersATALTeams[mission.missionID][1]
+                    local _tmp = ZyersATALTeams[T.CurrCov][mission.missionID][1]
                     for i = 0, 4 do
                         local v = _tmp[i]
                         if not v then
@@ -280,15 +293,27 @@ local function makeTeams(testMode)
                         break
                     end
                 else
-                    for _, team in pairs(ZyersATALTeams[mission.missionID]) do
+                    for _, team in pairs(ZyersATALTeams[T.CurrCov][mission.missionID]) do
                         if missionSent then break end
                         for _, member in pairs(team) do
                             if member[1] == fol[1] then
-                                if populateMission(mission, team, testMode) then
-                                    missionSent = true
-                                    followers[k] = nil
-                                    queueAdd({mission, team})
-                                    break
+                                -- print("team with", fol[2])
+                                if checkTeamAvailable(team, followers) then
+                                    -- print("and it is available")
+                                    if populateMission(mission, team, testMode) then
+                                        -- print("and mission populated")
+                                        missionSent = true
+                                        --followers[k] = nil
+                                        for _, mem in pairs(team) do
+                                            for k, foll in pairs(followers) do
+                                                if mem[1] == foll[1] then
+                                                    followers[k] = nil
+                                                end
+                                            end
+                                        end
+                                        queueAdd({mission, team})
+                                        break
+                                    end
                                 end
                             end
                         end
@@ -296,6 +321,7 @@ local function makeTeams(testMode)
                 end
             end
         end
+        print("Got", #queue, "missions")
         if #queue > 0 then
             C_Timer.NewTicker(0.5, queueTick, #queue)
         end
@@ -310,7 +336,7 @@ local function printSavedTeamsInfo()
     local totalMissions = 0
     local totalTeams = 0
     local totalAnys = 0
-    for _, mission in pairs(ZyersATALTeams) do
+    for _, mission in pairs(ZyersATALTeams[T.CurrCov]) do
         totalMissions = totalMissions + 1
         if mission.any then
             totalAnys = totalAnys + 1
@@ -324,16 +350,25 @@ local function printSavedTeamsInfo()
 end
 
 local function fixSavedVars()
+    --
+    local currentCov = C_Covenants.GetActiveCovenantID()
     if ZyersATALTeams == nil then
         ZyersATALTeams = {}
+    end
+    T.CurrCov = currentCov
+    if ZyersATALTeams[T.CurrCov] == nil then
+        ZyersATALTeams[T.CurrCov] = {}
     end
     if ZyersATALidConv == nil then
         ZyersATALidConv = {}
     end
-
+    if ZyersATALVerbose == nil then
+        ZyersATALVerbose = 3
+    end
     local fols = C_Garrison.GetFollowers(123)
     -- if not fols then C_Timer.NewTicker(1, fixSavedVars, 1) return end
-    if #fols < #ZyersATALidConv then return end
+    if #fols < #ZyersATALidConv and currentCov == ZyersATALidConv.currCov then return end
+    ZyersATALidConv.currCov = currentCov
     for _, f in ipairs(C_Garrison.GetFollowers(123)) do
         ZyersATALidConv[f.garrFollowerID] = f.followerID
     end
@@ -424,6 +459,7 @@ SLASH_ATAL1 = "/atal"
 SLASH_ATAL2 = "/zyer"
 SLASH_ATAL3 = "/zy"
 SlashCmdList["ATAL"] = function(cmd)
+    fixSavedVars()
     local args = { strsplit(" ", string.lower(cmd)) }
     cmd = args[1]
     if cmd == "mk" or cmd == "make" then
@@ -447,18 +483,18 @@ SlashCmdList["ATAL"] = function(cmd)
                     break
                 end
             end
-        elseif args[2] == "info" then
+        elseif args[2] == "info" or args[2] == "i" then
             printSavedTeamsInfo()
         end
-    elseif cmd == "test" then
-        message("STUFF")
+    elseif cmd == "xp" then
+        message("xp")
     else
         print([[Welcome to Zyer's Adventure Table Auto Loader:
 '/atal make' to send missions
 '/atal add' to add a new team
 '/atal remove <id>' to remove every team from a mission
 '/atal change <var>' to change setting
-'/atal get' for info on teams saved]])
+'/atal get info' for info on teams saved]])
     end
 end
 
