@@ -163,8 +163,8 @@ T.Covs = {
 			{1345, "Chachi the Artiste"},
 		},
 		TroopIDs = {
-			1316, -- Venthyr Soulcaster
-			1318, -- Venthyr Nightblade
+			0, -- Venthyr Soulcaster
+			0, -- Venthyr Nightblade
 		}
 	}
 }
