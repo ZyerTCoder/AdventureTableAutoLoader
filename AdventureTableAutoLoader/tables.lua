@@ -40,6 +40,8 @@ T.RewardPrio = {
 	-- Uncommon Kyrian Anima (5)
 	{"itemID", 181744}, {"itemID", 184293}, {"itemID", 184360},
 	{"itemID", 184769}, {"itemID", 184770}, {"itemID", 184771},
+	-- Xp
+	-- {"title", "Bonus Follower XP"},
 }
 
 T.Covs = {
@@ -163,8 +165,8 @@ T.Covs = {
 			{1345, "Chachi the Artiste"},
 		},
 		TroopIDs = {
-			0, -- Venthyr Soulcaster
-			0, -- Venthyr Nightblade
+			1316, -- Venthyr Soulcaster
+			1318, -- Venthyr Nightblade
 		}
 	}
 }

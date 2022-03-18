@@ -168,6 +168,18 @@ local function getAvailableFollowersSorted()
     return followers
 end
 
+local function getMissionsToDoByXp()
+    -- TODO
+    local missions = C_Garrison.GetAvailableMissions(123)
+end
+
+local function getAvailableFollowersSortedByXP()
+    -- TODO
+    local unsortedFollowers = C_Garrison.GetFollowers(123)
+    local followers = {}
+    return followers
+end
+
 local function getMissionsTodo()
     local missionsToDo = {}
     local missions = C_Garrison.GetAvailableMissions(123)
@@ -377,6 +389,36 @@ local function fixSavedVars()
     end
 end
 
+local function makeForXP()
+    -- sort available missions by xp
+    local missions = getMissionsToDoByXp()
+    -- sort followers by missing xp
+    local followers = getAvailableFollowersSortedByXP()
+    do
+        local queue = {}
+        local queueTick = function()
+            local i, v = next(queue)
+            if not testMode then
+                C_Garrison.StartMission(v[1].missionID)
+            end
+            queue[i] = nil
+            if ZyersATALVerbose > 0 then
+                print(string.format("Sent %s to %s.", getTeamString(v[2]), v[1].name))
+            end
+        end
+
+        local queueAdd = function(v)
+            queue[#queue+1] = v
+            if ZyersATALVerbose > 0 then
+                if ZyersATALVerbose >= 2 then
+                    print(string.format("Added %s to the queue with %s", v[1].name, getTeamString(v[2])))
+                end
+            end
+        end
+        -- put followers into missions
+    end
+end
+
 local function changeSavedVar(var, value)
     if var == "a" or var == "auto" then
         if value then
@@ -442,7 +484,7 @@ function frame:OnEvent(event, ...)
                 C_Garrison.MarkMissionComplete(i)
                 C_Garrison.MissionBonusRoll(i)
             end
-            --C_Timer.After(1, makeTeams, 1)
+            C_Timer.After(1, makeTeams, 1)
         end
     elseif event == "GARRISON_MISSION_NPC_CLOSED" then
         npcFlag = true
@@ -487,7 +529,7 @@ SlashCmdList["ATAL"] = function(cmd)
             printSavedTeamsInfo()
         end
     elseif cmd == "xp" then
-        message("xp")
+        DevTools_Dump(getAvailableFollowersSortedByXP())
     else
         print([[Welcome to Zyer's Adventure Table Auto Loader:
 '/atal make' to send missions
