@@ -4,9 +4,8 @@
 ## Version: 1.0
 ## SavedVariables: ZyersATALTeams
 ## SavedVariablesPerCharacter: ZyersATALidConv
-## SavedVariablesPerCharacter: ZyersATALAuto
-## SavedVariablesPerCharacter: ZyersATALLog
-## SavedVariablesPerCharacter: ZyersATALVerbose
+## SavedVariablesPerCharacter: ZyersATALData
 
 tables.lua
 main.lua
+config.lua

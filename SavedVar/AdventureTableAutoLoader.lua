@@ -25,6 +25,30 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
+		[2220] = {
+			{
+				{
+					1272, -- [1]
+					"Sika", -- [2]
+				}, -- [1]
+				{
+					1320, -- [1]
+					"Kyrian Phalanx", -- [2]
+				}, -- [2]
+				{
+					1275, -- [1]
+					"Bron", -- [2]
+				}, -- [3]
+				{
+					1223, -- [1]
+					"Telethakas", -- [2]
+				}, -- [4]
+				[0] = {
+					1273, -- [1]
+					"Clora", -- [2]
+				},
+			}, -- [1]
+		},
 		[2171] = {
 			{
 				{
@@ -73,30 +97,6 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
-		[2220] = {
-			{
-				{
-					1272, -- [1]
-					"Sika", -- [2]
-				}, -- [1]
-				{
-					1320, -- [1]
-					"Kyrian Phalanx", -- [2]
-				}, -- [2]
-				{
-					1275, -- [1]
-					"Bron", -- [2]
-				}, -- [3]
-				{
-					1223, -- [1]
-					"Telethakas", -- [2]
-				}, -- [4]
-				[0] = {
-					1273, -- [1]
-					"Clora", -- [2]
-				},
-			}, -- [1]
-		},
 		[2263] = {
 			{
 				{
@@ -121,6 +121,27 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
+		[2187] = {
+			{
+				{
+					1260, -- [1]
+					"Kleia", -- [2]
+				}, -- [1]
+				{
+					1320, -- [1]
+					"Kyrian Phalanx", -- [2]
+				}, -- [2]
+				nil, -- [3]
+				{
+					1320, -- [1]
+					"Kyrian Phalanx", -- [2]
+				}, -- [4]
+				[0] = {
+					1259, -- [1]
+					"Pelagos", -- [2]
+				},
+			}, -- [1]
+		},
 		[2236] = {
 			{
 				{
@@ -142,27 +163,6 @@ ZyersATALTeams = {
 				[0] = {
 					1320, -- [1]
 					"Kyrian Phalanx", -- [2]
-				},
-			}, -- [1]
-		},
-		[2187] = {
-			{
-				{
-					1260, -- [1]
-					"Kleia", -- [2]
-				}, -- [1]
-				{
-					1320, -- [1]
-					"Kyrian Phalanx", -- [2]
-				}, -- [2]
-				nil, -- [3]
-				{
-					1320, -- [1]
-					"Kyrian Phalanx", -- [2]
-				}, -- [4]
-				[0] = {
-					1259, -- [1]
-					"Pelagos", -- [2]
 				},
 			}, -- [1]
 		},
@@ -1660,6 +1660,30 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
+		[2320] = {
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				},
+			}, -- [1]
+		},
 		[2210] = {
 			{
 				[0] = {
@@ -1732,6 +1756,96 @@ ZyersATALTeams = {
 					"Niya", -- [2]
 				}, -- [4]
 			}, -- [5]
+		},
+		[2344] = {
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1285, -- [1]
+					"Te'zan", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [4]
 		},
 		[2226] = {
 			{
@@ -3558,6 +3672,62 @@ ZyersATALTeams = {
 				},
 			}, -- [20]
 		},
+		[2272] = {
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1280, -- [1]
+					"Chalkyth", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+			}, -- [1]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				[0] = {
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				[0] = {
+					1282, -- [1]
+					"Yira'lya", -- [2]
+				},
+			}, -- [3]
+		},
 		[2306] = {
 			{
 				{
@@ -3600,7 +3770,97 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
+		[2203] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2330] = {
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1339, -- [1]
+					"Yanlar", -- [2]
+				},
+			}, -- [1]
+		},
 		[2220] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2346] = {
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				},
+			}, -- [1]
+		},
+		[2244] = {
 			{
 				{
 					1316, -- [1]
@@ -3642,7 +3902,7 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2244] = {
+		[2307] = {
 			{
 				{
 					1316, -- [1]
@@ -3662,6 +3922,444 @@ ZyersATALTeams = {
 				}, -- [4]
 			}, -- [1]
 			["any"] = true,
+		},
+		[2189] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2192] = {
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1266, -- [1]
+					"Hunt-Captain Korayn", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1265, -- [1]
+					"Niya", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [2]
+			{
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+				[2] = {
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				},
+				[4] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+				[3] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [4]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1326, -- [1]
+					"Spore of Marasmius", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [5]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1280, -- [1]
+					"Chalkyth", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [6]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1257, -- [1]
+					"Meatball", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [7]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1283, -- [1]
+					"Guardian Kota", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [8]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1278, -- [1]
+					"Duskleaf", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [9]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1338, -- [1]
+					"Elwyn", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [10]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1325, -- [1]
+					"Croman", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [11]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [12]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [13]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [14]
+		},
+		[2237] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2339] = {
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1338, -- [1]
+					"Elwyn", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				},
+			}, -- [4]
 		},
 		[2221] = {
 			{
@@ -3705,7 +4403,7 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2237] = {
+		[2300] = {
 			{
 				{
 					1316, -- [1]
@@ -3716,15 +4414,370 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1277, -- [1]
+					"Blisswing", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1338, -- [1]
+					"Elwyn", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1326, -- [1]
+					"Spore of Marasmius", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [4]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1327, -- [1]
+					"Ella", -- [2]
+				},
+			}, -- [5]
+			{
+				{
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [6]
+			{
+				{
+					1278, -- [1]
+					"Duskleaf", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [7]
+			{
+				{
+					1284, -- [1]
+					"Master Sha'lor", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [8]
+			{
+				{
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [9]
+			{
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [10]
+			{
+				{
+					1325, -- [1]
+					"Croman", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [11]
+			{
+				{
+					1280, -- [1]
+					"Chalkyth", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [12]
+			{
+				{
+					1257, -- [1]
+					"Meatball", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				}, -- [4]
-			}, -- [1]
-			["any"] = true,
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [13]
+			{
+				{
+					1283, -- [1]
+					"Guardian Kota", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [14]
+			{
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [15]
+			{
+				{
+					1265, -- [1]
+					"Niya", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [16]
+			{
+				{
+					1266, -- [1]
+					"Hunt-Captain Korayn", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [17]
 		},
 		[2308] = {
 			{
@@ -3947,11 +5000,11 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2307] = {
+		[2340] = {
 			{
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1264, -- [1]
+					"Dreamweaver", -- [2]
 				}, -- [1]
 				{
 					1318, -- [1]
@@ -3962,11 +5015,14 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
+				[0] = {
+					1265, -- [1]
+					"Niya", -- [2]
+				},
 			}, -- [1]
-			["any"] = true,
 		},
 		[2206] = {
 			{
@@ -4010,7 +5066,7 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2219] = {
+		[2313] = {
 			{
 				{
 					1316, -- [1]
@@ -4025,8 +5081,8 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 			}, -- [1]
 			["any"] = true,
@@ -4897,382 +5953,6 @@ ZyersATALTeams = {
 				},
 			}, -- [22]
 		},
-		[2300] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1277, -- [1]
-					"Blisswing", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1339, -- [1]
-					"Yanlar", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [2]
-			{
-				{
-					1338, -- [1]
-					"Elwyn", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [3]
-			{
-				{
-					1326, -- [1]
-					"Spore of Marasmius", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [4]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1327, -- [1]
-					"Ella", -- [2]
-				},
-			}, -- [5]
-			{
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [6]
-			{
-				{
-					1278, -- [1]
-					"Duskleaf", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [7]
-			{
-				{
-					1284, -- [1]
-					"Master Sha'lor", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [8]
-			{
-				{
-					1281, -- [1]
-					"Lloth'wellyn", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [9]
-			{
-				{
-					1285, -- [1]
-					"Te'zan", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [10]
-			{
-				{
-					1325, -- [1]
-					"Croman", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [11]
-			{
-				{
-					1280, -- [1]
-					"Chalkyth", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [12]
-			{
-				{
-					1257, -- [1]
-					"Meatball", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [13]
-			{
-				{
-					1283, -- [1]
-					"Guardian Kota", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [14]
-			{
-				{
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [15]
-			{
-				{
-					1265, -- [1]
-					"Niya", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [16]
-			{
-				{
-					1266, -- [1]
-					"Hunt-Captain Korayn", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [17]
-		},
 		[2270] = {
 			{
 				{
@@ -5294,7 +5974,7 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2203] = {
+		[2207] = {
 			{
 				{
 					1316, -- [1]
@@ -5314,6 +5994,52 @@ ZyersATALTeams = {
 				}, -- [4]
 			}, -- [1]
 			["any"] = true,
+		},
+		[2341] = {
+			{
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1327, -- [1]
+					"Ella", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1285, -- [1]
+					"Te'zan", -- [2]
+				},
+			}, -- [2]
 		},
 		[2223] = {
 			{
@@ -5336,15 +6062,103 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2272] = {
+		[2225] = {
 			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
 				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1265, -- [1]
+					"Niya", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
 				}, -- [1]
 				{
-					1280, -- [1]
-					"Chalkyth", -- [2]
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1325, -- [1]
+					"Croman", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1285, -- [1]
+					"Te'zan", -- [2]
+				},
+			}, -- [4]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
 					1316, -- [1]
@@ -5354,43 +6168,33 @@ ZyersATALTeams = {
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
 				}, -- [4]
-			}, -- [1]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
 				[0] = {
 					1281, -- [1]
 					"Lloth'wellyn", -- [2]
 				},
-			}, -- [2]
+			}, -- [5]
 			{
 				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
 				}, -- [1]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
 				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
+				}, -- [4]
 				[0] = {
-					1282, -- [1]
-					"Yira'lya", -- [2]
+					1277, -- [1]
+					"Blisswing", -- [2]
 				},
-			}, -- [3]
+			}, -- [6]
 		},
 		[2302] = {
 			{
@@ -5413,58 +6217,37 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2313] = {
+		[2243] = {
 			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-			}, -- [1]
-			["any"] = true,
-		},
-		[2192] = {
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
 				{
 					1266, -- [1]
 					"Hunt-Captain Korayn", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				},
 			}, -- [1]
 			{
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1264, -- [1]
+					"Dreamweaver", -- [2]
 				}, -- [1]
 				{
-					1265, -- [1]
-					"Niya", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
 					1316, -- [1]
@@ -5475,84 +6258,88 @@ ZyersATALTeams = {
 					"Ardenweald Grovetender", -- [2]
 				}, -- [4]
 				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				},
 			}, -- [2]
 			{
+				{
+					1257, -- [1]
+					"Meatball", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
 				[0] = {
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
-				},
-				[2] = {
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				},
-				[4] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-				[3] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
 				},
 			}, -- [3]
 			{
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1325, -- [1]
+					"Croman", -- [2]
 				}, -- [1]
 				{
-					1327, -- [1]
-					"Ella", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				},
 			}, -- [4]
 			{
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1285, -- [1]
+					"Te'zan", -- [2]
 				}, -- [1]
 				{
-					1326, -- [1]
-					"Spore of Marasmius", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				},
 			}, -- [5]
 			{
 				{
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				}, -- [1]
+				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
-				}, -- [1]
+				}, -- [2]
 				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1280, -- [1]
-					"Chalkyth", -- [2]
 				}, -- [3]
 				{
 					1316, -- [1]
@@ -5565,12 +6352,12 @@ ZyersATALTeams = {
 			}, -- [6]
 			{
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1337, -- [1]
+					"Sulanoom", -- [2]
 				}, -- [1]
 				{
-					1257, -- [1]
-					"Meatball", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
 					1316, -- [1]
@@ -5581,10 +6368,54 @@ ZyersATALTeams = {
 					"Ardenweald Grovetender", -- [2]
 				}, -- [4]
 				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [7]
+			{
+				{
+					1277, -- [1]
+					"Blisswing", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
 				},
-			}, -- [7]
+			}, -- [8]
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [9]
 			{
 				{
 					1318, -- [1]
@@ -5595,156 +6426,46 @@ ZyersATALTeams = {
 					"Guardian Kota", -- [2]
 				}, -- [2]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [8]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1278, -- [1]
-					"Duskleaf", -- [2]
-				}, -- [2]
-				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [9]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1338, -- [1]
-					"Elwyn", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
 				},
 			}, -- [10]
+		},
+		[2318] = {
 			{
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1339, -- [1]
+					"Yanlar", -- [2]
 				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1325, -- [1]
-					"Croman", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [11]
-			{
 				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
 				}, -- [2]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1327, -- [1]
+					"Ella", -- [2]
 				},
-			}, -- [12]
+			}, -- [1]
 			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1285, -- [1]
-					"Te'zan", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [13]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
 				{
 					1281, -- [1]
 					"Lloth'wellyn", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [14]
-		},
-		[2207] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
 				}, -- [1]
 				{
 					1318, -- [1]
@@ -5755,11 +6476,38 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [2]
+		},
+		[2345] = {
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
+				[0] = {
+					1285, -- [1]
+					"Te'zan", -- [2]
+				},
 			}, -- [1]
-			["any"] = true,
 		},
 		[2208] = {
 			{
@@ -6243,317 +6991,7 @@ ZyersATALTeams = {
 				},
 			}, -- [22]
 		},
-		[2225] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1265, -- [1]
-					"Niya", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [2]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1325, -- [1]
-					"Croman", -- [2]
-				},
-			}, -- [3]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1285, -- [1]
-					"Te'zan", -- [2]
-				},
-			}, -- [4]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1281, -- [1]
-					"Lloth'wellyn", -- [2]
-				},
-			}, -- [5]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1277, -- [1]
-					"Blisswing", -- [2]
-				},
-			}, -- [6]
-		},
-		[2243] = {
-			{
-				{
-					1266, -- [1]
-					"Hunt-Captain Korayn", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [2]
-			{
-				{
-					1257, -- [1]
-					"Meatball", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [3]
-			{
-				{
-					1325, -- [1]
-					"Croman", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [4]
-			{
-				{
-					1285, -- [1]
-					"Te'zan", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [5]
-			{
-				{
-					1281, -- [1]
-					"Lloth'wellyn", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [6]
-			{
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [7]
-			{
-				{
-					1277, -- [1]
-					"Blisswing", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [8]
+		[2342] = {
 			{
 				{
 					1339, -- [1]
@@ -6572,18 +7010,18 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1337, -- [1]
+					"Sulanoom", -- [2]
 				},
-			}, -- [9]
+			}, -- [1]
 			{
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1339, -- [1]
+					"Yanlar", -- [2]
 				}, -- [1]
 				{
-					1283, -- [1]
-					"Guardian Kota", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
 					1318, -- [1]
@@ -6594,10 +7032,73 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
+					1327, -- [1]
+					"Ella", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1338, -- [1]
+					"Elwyn", -- [2]
+				},
+			}, -- [3]
+			{
+				[0] = {
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				},
+				[2] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+				[4] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+				[3] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [4]
+		},
+		[2219] = {
+			{
+				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [10]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
 		},
 	}, -- [3]
+	{
+	}, -- [4]
 }
