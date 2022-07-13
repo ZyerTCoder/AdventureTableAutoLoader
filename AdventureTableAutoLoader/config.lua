@@ -6,22 +6,28 @@ local frame = T.configFrame
 frame.name = addonName
 frame:Hide()
 
+
 frame:SetScript("OnShow", function(frame)
+	local function createCheckbox(name, tooltip)
+		local cb = CreateFrame("CheckButton", addonName .. "Checkbox" .. name, frame, "InterfaceOptionsCheckButtonTemplate")
+		cb.Text:SetText(name)
+		cb.tooltipText = name
+		cb.tooltipRequirement = tooltip
+		return cb
+	end
+
 	local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 	title:SetPoint("TOPLEFT", 16, -16)
 	title:SetText(addonName)
 
-	local autoCB = CreateFrame("CheckButton", nil, frame, "InterfaceOptionsCheckButtonTemplate")
-	autoCB:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 20, -20)
-	autoCB.Text:SetText("Auto")
-	autoCB.tooltipText = "autoCB tooltipText"
-	autoCB.tooltipRequirement = "autoCB tooltipRequirement"
-	autoCB.SetValue = function(_, value)
+	local auto = createCheckbox("Auto", "Toggle automatically completing quests and sending missions upon opening the mission table.")
+	auto:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -10)
+	auto.SetValue = function(_, value)
 		ZyersATALData.auto = (value == "1")
 	end
 
 	local verboseSlider = CreateFrame("Slider", nil, frame, "OptionsSliderTemplate")
-	verboseSlider:SetPoint("TOPLEFT", autoCB, "BOTTOMLEFT", 20, -20)
+	verboseSlider:SetPoint("TOPLEFT", auto, "BOTTOMLEFT", 0, -15)
 	verboseSlider:SetMinMaxValues(0, 3)
 	verboseSlider:SetValueStep(1)
 	verboseSlider.Text:SetText("Debug level")
@@ -44,7 +50,7 @@ frame:SetScript("OnShow", function(frame)
 	end)
 
 	function frame:Refresh()
-		autoCB:SetChecked(ZyersATALData.auto)
+		auto:SetChecked(ZyersATALData.auto)
 		verboseSlider:SetValue(ZyersATALData.verbose)
 	end
 
