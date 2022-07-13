@@ -1,8 +1,8 @@
-local this, T = ...
+local addonName, T = ...
 -- TODO
--- IMPORTANT FOR OTHER COVS after successfully populating a mission, make sure it disables other followers so they cant be used in subsequent missions
 -- make it close the mission table when its done on auto mode with C_Garrison.CloseMissionNPC youll need to count the end of the ticker
 -- make it say if a follower went below 50% on a mission
+-- add the ability to change the reward prio in the settings
 
 local cmdList = {}
 
@@ -218,25 +218,25 @@ local function getMissionsTodo()
 	return missionsToDo
 end
 
-local function checkTeamAvailable(team, followers)
-	for _, member in pairs(team) do
-		local flag = false
-		for _, fol in pairs(followers) do
-			if member[1] == fol[1] or isInTable(T.Covs[T.CurrCov].TroopIDs, member[1]) then
-				flag = true
-			end
-		end
-		if not flag then return false end
-	end
-	return true
-end
-
 local function isFollowerGood(followerID)
 	-- max level and full hp
 	local f = C_Garrison.GetFollowerInfo(ZyersATALidConv[followerID])
 	local cs = C_Garrison.GetFollowerAutoCombatStats(ZyersATALidConv[followerID])
 	if not f or not cs then return false end
 	return f.isMaxLevel and (cs.currentHealth == cs.maxHealth)
+end
+
+local function checkTeamAvailable(team, followers)
+	for _, member in pairs(team) do
+		local flag = false
+		for _, fol in pairs(followers) do
+			if (member[1] == fol[1] or isInTable(T.Covs[T.CurrCov].TroopIDs, member[1])) and isFollowerGood(member[1]) then
+				flag = true
+			end
+		end
+		if not flag then return false end
+	end
+	return true
 end
 
 local function makeTeams(testMode)
@@ -316,7 +316,7 @@ local function makeTeams(testMode)
 					for _, team in pairs(ZyersATALTeams[T.CurrCov][mission.missionID]) do
 						if missionSent then break end
 						for _, member in pairs(team) do
-							if member[1] == fol[1] and isFollowerGood(fol[1]) then
+							if member[1] == fol[1] then
 								-- print(mission.missionID, fol[2], "good")
 								-- print("team with", fol[2])
 								if checkTeamAvailable(team, followers) then
@@ -462,19 +462,23 @@ local function printCompleteMissionResponse(success, t)
 	-- print("btw, complete_response input with", arg)
 	local mid = t[1]
 	local mission = C_Garrison.GetBasicMissionInfo(mid)
-	if not mission then return print("Couldn't get mission info for", mid) end
 	if success then
 		if ZyersATALData.verbose >= 1 then
+			if not mission then return print("Completed %d but Blizzard didn't tell me it's name.", mid) end
 			print(string.format("Completed %d %s", mid, mission.name))
 		end
 	else
-		print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
 		DevTools_Dump(t[5])
+		print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
 		ZyersATALData.lastFail = t
 	end
 end
 
 local function completeAllMissions(xpac)
+	if type(xpac) == "string" then
+		xpac = tonumber(xpac)
+	end
+	if not xpac then return end
 	for _, m in pairs(C_Garrison.GetCompleteMissions(xpac)) do
 		local i = m.missionID
 		C_Garrison.MarkMissionComplete(i)
@@ -593,8 +597,9 @@ do
 '/atal make' to send missions
 '/atal remove <id>' to remove every team from a mission
 '/atal change <var>' to change setting
-'/atal get' for info on missions/teams/followers
-'/atal options' to open the options menu]]
+'/atal get <option>' for info on missions/teams/followers
+'/atal options' to open the options menu
+'/atal complete 123' to auto set all missions as completed]]
 	cmdList.make = makeTeams
 		cmdList.mk = cmdList.make
 	cmdList.add = addTeam
@@ -606,6 +611,8 @@ do
 		cmdList.g = cmdList.get
 	cmdList.help = function() print(helpMsg) end
 		cmdList.h = cmdList.help
+	cmdList.complete = completeAllMissions
+		cmdList.cmpl = cmdList.complete
 end
 
 SLASH_ATAL1 = "/atal"
