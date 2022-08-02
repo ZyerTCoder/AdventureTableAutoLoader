@@ -75,16 +75,15 @@ frame:SetScript("OnShow", function(frame)
 		verboseSlider.Low:SetText("0")
 		verboseSlider.High:SetText("3")
 		verboseSlider.tooltipText = "Change how much info the addon prints out:"
-		verboseSlider.tooltipRequirement = [[
-	3: debug info 
-	- how long it took to calculate missions
-	2: extra mission info 
-	- which missions of interest are available when you open the command table
-	- team added to queue feedback
-	1: basic responses/info DEFAULT
-	- missions sent feedback
-	- missions completed
-	0: everything else: errors and command responses]]
+		verboseSlider.tooltipRequirement = [[3: debug info 
+- how long it took to calculate missions
+2: extra mission info 
+- which missions of interest are available when you open the command table
+- team added to queue feedback
+1: basic responses/info DEFAULT
+- missions sent feedback
+- missions completed
+0: everything else: errors and command responses]]
 		verboseSlider:SetScript("OnValueChanged", function(_, value)
 			ZyersATALData.verbose = value
 			verboseSlider:SetValue(ZyersATALData.verbose)
