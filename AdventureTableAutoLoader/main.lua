@@ -1,8 +1,8 @@
 local addonName, T = ...
 -- TODO
--- make it close the mission table when its done on auto mode with C_Garrison.CloseMissionNPC youll need to count the end of the ticker
--- make it say if a follower went below 50% on a mission
--- add the ability to change the reward prio in the settings
+-- add the ability to change the order of rewards in the settings
+-- implement currency rewards
+-- get a couple checks in when sending missions (interrupt on lack of anima or when you leave the table)
 
 local cmdList = {}
 
@@ -22,6 +22,8 @@ local function isInTable(tab, val)
 	end
 	return false
 end
+
+T.isInTable = isInTable
 
 local function addTeam()
 	if not C_Garrison.IsAtGarrisonMissionNPC() then
@@ -184,7 +186,7 @@ end
 local function getMissionsTodo()
 	local missionsToDo = {}
 	local missions = C_Garrison.GetAvailableMissions(123)
-	for _, rewardType in ipairs(T.RewardPrio) do
+	for _, rewardType in ipairs(ZyersATALData.rewardsPrio) do
 		for _, mission in ipairs(missions) do
 			if not isInTable(missionsToDo, mission) then
 				for _, reward in ipairs(mission.rewards) do
@@ -374,6 +376,12 @@ local function fixSavedVars()
 	if not ZyersATALData then
 		ZyersATALData = {}
 	end
+	if not ZyersATALDataLocal then
+		ZyersATALDataLocal = {}
+	end
+	if not ZyersATALData.rewardsPrio then
+		ZyersATALData.rewardsPrio = T.DefaultRewardPrio
+	end
 	local currentCov = C_Covenants.GetActiveCovenantID()
 	if ZyersATALTeams == nil then
 		ZyersATALTeams = {}
@@ -436,13 +444,13 @@ local function changeSavedVar(var, value)
 	end
 	if var == "a" or var == "auto" then
 		if value then
-			ZyersATALData.auto = value
+			ZyersATALDataLocal.auto = value
 			print("ATAL: Auto is " .. value)
-		elseif ZyersATALData.auto then
-			ZyersATALData.auto = nil
+		elseif ZyersATALDataLocal.auto then
+			ZyersATALDataLocal.auto = nil
 			print("ATAL: Auto is off.")
 		else
-			ZyersATALData.auto = true
+			ZyersATALDataLocal.auto = true
 			print("ATAL: Auto is on.")
 		end
 	elseif var == "v" or var == "verbose" then
@@ -468,8 +476,12 @@ local function printCompleteMissionResponse(success, t)
 			print(string.format("Completed %d %s", mid, mission.name))
 		end
 	else
-		DevTools_Dump(t[5])
+		-- DevTools_Dump(t[5])
 		print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
+		for k, v in pairs(t[5]) do
+			local f = C_Garrison.GetFollowerInfo(v.followerID)
+			print(f.name)
+		end
 		ZyersATALData.lastFail = t
 	end
 end
@@ -541,14 +553,14 @@ function frame:OnEvent(event, ...)
 		if notAtGarrNPC then
 			fixSavedVars()
 		end
-		if ZyersATALData.auto and notAtGarrNPC then
+		if ZyersATALDataLocal.auto and notAtGarrNPC then
 			notAtGarrNPC = false
 			if arg[1] == 123 then -- SL command table
 				completeAllMissions(123)
 				if getAnima() > 1000 then
-					C_Timer.After(1, makeTeams, 1)
+					C_Timer.After(1, makeTeams)
 				else
-					print("You have less than 1000 anima. Use /atal make to send teams.")
+					C_Timer.After(1, function() print("You have less than 1000 anima. Use /atal make to send teams.") end)
 				end
 			elseif arg[1] == 1 then -- WoD command table
 				completeAllMissions(1)
@@ -586,8 +598,18 @@ local function infoGetter(what)
 		printSavedTeamsInfo()
 	elseif what == "followers" or what == "f" then
 		checkFollowersAvailability()
+	elseif what == "rewards" or what == "r" then
+		local p
+		for k, v in pairs(ZyersATALData.rewardsPrio.order) do
+			if p then
+				p = p .. ", " .. v
+			else
+				p = v
+			end
+		end
+		print("Reward priority is: " .. p)
 	else
-		print("getter options: missions/info/followers")
+		print("getter options: missions/info/followers/rewards")
 	end
 end
 

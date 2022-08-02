@@ -3,9 +3,10 @@
 ## Author: Zyer
 ## Version: 1.0
 ## SavedVariables: ZyersATALTeams
+## SavedVariables: ZyersATALData
 ## SavedVariablesPerCharacter: ZyersATALidConv
-## SavedVariablesPerCharacter: ZyersATALData
+## SavedVariablesPerCharacter: ZyersATALDataLocal
 
 tables.lua
-main.lua
 config.lua
+main.lua

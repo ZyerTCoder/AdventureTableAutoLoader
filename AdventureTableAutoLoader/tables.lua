@@ -1,6 +1,15 @@
 local _, T = ...
 
-T.RewardPrio = {
+T.DefaultRewardPrio = {
+	order = {"Gold Reward", "XP Items", "Augment Runes", "Pet Charms", "Anima"
+		-- {k = "gold", v = "Gold Reward"},
+		-- {k = "xpItems", v = "XP Items"},
+		-- {k = "runes", v = "Augment Runes"},
+		-- {k = "petCharms", v = "Pet Charms"},
+		-- {k = "anima", v = "Anima"}
+	},
+	-- Campaign Progress
+	--{"title", "Currency Reward", 1889},
 	-- Gold
 	{"title", "Money Reward"},
 	-- XP Items, Epic, Rare, Uncommon
@@ -40,11 +49,73 @@ T.RewardPrio = {
 	{"itemID", 181540}, {"itemID", 184385}, {"itemID", 184386},
 	{"itemID", 184387}, {"itemID", 184388}, {"itemID", 184389},
 	-- Uncommon Kyrian Anima (5)
-	
 	{"itemID", 181744}, {"itemID", 184293}, {"itemID", 184360},
 	{"itemID", 184769}, {"itemID", 184770}, {"itemID", 184771},
+	-- Tutorial Anima and Low Level Missions
+	{"itemID" , 184373}, {"itemID", 181544}, {"itemID", 181642}, {"itemID", 184385}, {"itemID",184389},
 	-- Xp
 	-- {"title", "Bonus Follower XP"},
+}
+
+T.RewardTypes = {
+	titles = {
+		"Gold Reward",
+		"XP Items",
+		"Augment Runes",
+		"Pet Charms",
+		"Anima",
+		"Kyrian Reputation NYI",
+		"Venthyr Reputation NYI",
+		"Night Fae Reputation NYI",
+		"Necrolord Reputation NYI",
+		"Campaign Progress NYI",
+	},
+	groups = {
+		GoldReward = {{"title", "Money Reward"}},
+		XPItems = {
+			-- XP Items, Epic, Rare, Uncommon
+			{"itemID", 188657,},
+			{"itemID", 188656,},
+			{"itemID", 188655,},
+		},
+		AugmentRunes = {{"itemID", 181468}},
+		PetCharms = {{"itemID", 163036,}},
+		Anima = {
+			-- Rare Korthia Anima Quest
+			{"itemID", 187517},
+			-- 9.2 Anima Item
+			{"itemID", 189544},
+			-- Rare Venthyr Anima (35)
+			{"itemID", 181545}, {"itemID", 181546}, {"itemID", 181547}, {"itemID", 181548},
+			{"itemID", 181550}, {"itemID", 184147}, {"itemID", 184150}, {"itemID", 184777},
+			-- Rare Necrolord Anima (35)
+			{"itemID", 181645}, {"itemID", 181647}, {"itemID", 181649},
+			{"itemID", 184305}, {"itemID", 184772}, {"itemID", 184773},
+			{"itemID", 184774}, {"itemID", 184775}, {"itemID", 184776},
+			-- Rare Night Fae Anima (35)
+			{"itemID", 181477}, {"itemID", 181479}, {"itemID", 181541},
+			{"itemID", 184378}, {"itemID", 184381}, {"itemID", 184382},
+			{"itemID", 184383}, {"itemID", 184384}, {"itemID", 184519},
+			-- Rare Kyrian Anima (35)
+			{"itemID", 181368}, {"itemID", 181377}, {"itemID", 181745}, {"itemID", 184294},
+			{"itemID", 184362}, {"itemID", 184363}, {"itemID", 184765}, {"itemID", 184766},
+			{"itemID", 184767}, {"itemID", 184768},
+			-- Uncommon Venthyr Anima (5)
+			{"itemID", 181544}, {"itemID", 181551}, {"itemID", 184146},
+			{"itemID", 184148}, {"itemID", 184151}, {"itemID", 184152},
+			-- Uncommon Necrolord Anima (5)
+			{"itemID", 181642}, {"itemID", 181643}, {"itemID", 181644},
+			{"itemID", 184306}, {"itemID", 184307},
+			-- Uncommon Night Fae Anima (5)
+			{"itemID", 181540}, {"itemID", 184385}, {"itemID", 184386},
+			{"itemID", 184387}, {"itemID", 184388}, {"itemID", 184389},
+			-- Uncommon Kyrian Anima (5)
+			{"itemID", 181744}, {"itemID", 184293}, {"itemID", 184360},
+			{"itemID", 184769}, {"itemID", 184770}, {"itemID", 184771},
+			-- Tutorial Anima and Low Level Missions
+			{"itemID" , 184373}, {"itemID", 181544}, {"itemID", 181642}, {"itemID", 184385}, {"itemID",184389},
+		}
+	}
 }
 
 T.Covs = {
