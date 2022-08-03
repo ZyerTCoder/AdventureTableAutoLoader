@@ -14,7 +14,7 @@ local function getTableLen(tab)
 	return c
 end
 
-local function isInTable(tab, val)
+function T.isInTable(tab, val)
 	local set = {}
 	for _, l in pairs(tab) do set[l] = true end
 	if set[val] then
@@ -22,8 +22,6 @@ local function isInTable(tab, val)
 	end
 	return false
 end
-
-T.isInTable = isInTable
 
 local function addTeam()
 	if not C_Garrison.IsAtGarrisonMissionNPC() then
@@ -107,7 +105,7 @@ local function getTeamString(team)
 	local troops = 0
 	local companions = {}
 	for _, mem in pairs(team) do
-		if isInTable(T.Covs[T.CurrCov].TroopIDs, mem[1]) then
+		if T.isInTable(T.Covs[T.CurrCov].TroopIDs, mem[1]) then
 			troops = troops + 1
 		else
 			companions[#companions+1] = mem[2]
@@ -188,7 +186,7 @@ local function getMissionsTodo()
 	local missions = C_Garrison.GetAvailableMissions(123)
 	for _, rewardType in ipairs(ZyersATALData.rewardsPrio) do
 		for _, mission in ipairs(missions) do
-			if not isInTable(missionsToDo, mission) then
+			if not T.isInTable(missionsToDo, mission) then
 				for _, reward in ipairs(mission.rewards) do
 				--DevTools_Dump(reward)
 					local k, reTyp = rewardType[1], rewardType[2]
@@ -232,7 +230,7 @@ local function checkTeamAvailable(team, followers)
 	for _, member in pairs(team) do
 		local flag = false
 		for _, fol in pairs(followers) do
-			if (member[1] == fol[1] or isInTable(T.Covs[T.CurrCov].TroopIDs, member[1])) and isFollowerGood(member[1]) then
+			if (member[1] == fol[1] or T.isInTable(T.Covs[T.CurrCov].TroopIDs, member[1])) and isFollowerGood(member[1]) then
 				flag = true
 			end
 		end
