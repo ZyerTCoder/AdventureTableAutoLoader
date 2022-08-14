@@ -1,8 +1,12 @@
-local addonName, T = ...
+local _, T = ...
 -- TODO
--- add the ability to change the order of rewards in the settings
--- implement currency rewards
 -- get a couple checks in when sending missions (interrupt on lack of anima or when you leave the table)
+-- atal will think the mission fails if theres too high lag <1000ms maybe desynced event orders?
+-- change populateMission to be part of the queue so it doesnt freeze for as much long running make
+-- add an option to change maximum mission cost
+-- instead of requiring a minimum of 1000 anima instead send missions until you run out
+-- abort sending missions if you run out of anima or if you leave the table
+-- add a button on the table gui to make ?
 
 local cmdList = {}
 
@@ -41,7 +45,7 @@ local function addTeam()
 	if ZyersATALTeams[T.CurrCov][mid] == nil then
 		ZyersATALTeams[T.CurrCov][mid] = {}
 	end
-	--/run local board = CovenantMissionFrame.MissionTab.MissionPage.Board.framesByBoardIndex; for i=0,4 do local ii=board[i].info;if ii then print(ii.isAutoTroop, ii.garrFollowerID, ii.name) end end
+
 	local team = {}
 	local board = CovenantMissionFrame.MissionTab.MissionPage.Board.framesByBoardIndex
 	local noCompanions = true
@@ -56,7 +60,7 @@ local function addTeam()
 	end
 
 	-- DevTools_Dump(team)
-	-- print(getTableLen(team))
+	-- print(getTableLen(team))	
 	if noCompanions then
 		if getTableLen(team) == 4 then
 			print("No companions on this mission, adding as an open team.")
@@ -74,7 +78,7 @@ local function addTeam()
 	-- check if duplicate
 	-- if not getTableLen(ZyersATALTeams[T.CurrCov][mid]) then
 
-	for _, teamIn in ipairs(ZyersATALTeams[T.CurrCov][mid]) do
+	for _, teamIn in pairs(ZyersATALTeams[T.CurrCov][mid]) do
 		local isDupe = true
 		for k, member in pairs(teamIn) do
 			local newMember = team[k] or {}
@@ -117,7 +121,7 @@ end
 local function populateMission(mission, team, testMode)
 	local sucess = true
 	local order = {2, 3, 4, 0, 1}
-	for _, v in ipairs(order) do
+	for _, v in pairs(order) do
 		if team[v] then
 			local fid = ZyersATALidConv[team[v][1]]
 			if not testMode then
@@ -158,8 +162,8 @@ end
 local function getAvailableFollowersSorted()
 	local unsortedFollowers = C_Garrison.GetFollowers(123)
 	local followers = {}
-	for _, prio in ipairs(T.Covs[T.CurrCov].FollowerPrio) do
-		for _, fol in ipairs(unsortedFollowers) do
+	for _, prio in pairs(T.Covs[T.CurrCov].FollowerPrio) do
+		for _, fol in pairs(unsortedFollowers) do
 			if (fol.status == nil) and (prio[1] == fol.garrFollowerID) then
 				followers[#followers+1] = prio
 				break
@@ -169,33 +173,22 @@ local function getAvailableFollowersSorted()
 	return followers
 end
 
-local function getMissionsToDoByXp()
-	-- TODO
-	local missions = C_Garrison.GetAvailableMissions(123)
-end
-
-local function getAvailableFollowersSortedByXP()
-	-- TODO
-	local unsortedFollowers = C_Garrison.GetFollowers(123)
-	local followers = {}
-	return followers
-end
-
 local function getMissionsTodo()
 	local missionsToDo = {}
 	local missions = C_Garrison.GetAvailableMissions(123)
-	for _, rewardType in ipairs(ZyersATALData.rewardsPrio) do
-		for _, mission in ipairs(missions) do
+	for _, rewardType in pairs(ZyersATALData.rewardsPrio) do
+		for _, mission in pairs(missions) do
 			if not T.isInTable(missionsToDo, mission) then
-				for _, reward in ipairs(mission.rewards) do
+				for _, reward in pairs(mission.rewards) do
 				--DevTools_Dump(reward)
-					local k, reTyp = rewardType[1], rewardType[2]
+					local k, reTyp, currID = rewardType[1], rewardType[2], rewardType[3]
 					if k == "title" then
-						if reward.title == reTyp then
+						if reward.title == reTyp and (reward.currencyID == currID or reward.currencyID == 0) then
 							local _, s = getNumberOfTeams(mission.missionID)
 							missionsToDo[#missionsToDo +1] = mission
 							if ZyersATALData.verbose >= 2 then
-								print(string.format("%s %s for %s %s", mission.missionID, mission.name, reTyp, s))
+								local currName = C_CurrencyInfo.GetCurrencyLink(currID or 0)
+								print(string.format("%s %s for %s %s%s", mission.missionID, mission.name, reTyp, currName or " ", s))
 							end
 						end
 					elseif k == "itemID" then
@@ -288,7 +281,7 @@ local function makeTeams(testMode)
 		-- for mission in missionsToDo
 			-- for follower in followerPrio
 				-- if mission has team with this follower send
-		for _, mission in ipairs(missionsToDo) do
+		for _, mission in pairs(missionsToDo) do
 			-- print(mission.missionID, mission.name)
 			local missionSent = false
 			for k, fol in pairs(followers) do
@@ -398,10 +391,10 @@ local function fixSavedVars()
 	-- if not fols then C_Timer.NewTicker(1, fixSavedVars, 1) return end
 	if #fols < #ZyersATALidConv and currentCov == ZyersATALidConv.currCov then return end
 	ZyersATALidConv.currCov = currentCov
-	for _, f in ipairs(C_Garrison.GetFollowers(123)) do
+	for _, f in pairs(C_Garrison.GetFollowers(123)) do
 		ZyersATALidConv[f.garrFollowerID] = f.followerID
 	end
-	for _,f in ipairs(C_Garrison.GetAutoTroops(123)) do
+	for _,f in pairs(C_Garrison.GetAutoTroops(123)) do
 		ZyersATALidConv[f.garrFollowerID] = f.followerID
 	end
 end
@@ -475,10 +468,10 @@ local function printCompleteMissionResponse(success, t)
 		end
 	else
 		-- DevTools_Dump(t[5])
-		print(string.format("|cFFFF0000Failed %d and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid))
+		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid, function () if mission then return mission.name else return "" end end))
 		for k, v in pairs(t[5]) do
 			local f = C_Garrison.GetFollowerInfo(v.followerID)
-			print(f.name)
+			if f then print(f.name) end
 		end
 		ZyersATALData.lastFail = t
 	end
@@ -586,7 +579,7 @@ local function infoGetter(what)
 			print("No missions of interest found.")
 		end
 
-		for _, mission in ipairs(missions) do
+		for _, mission in pairs(missions) do
 			if getNumberOfTeams(mission.missionID) < 1 then
 				message(string.format("\nThere are missions available without teams.\n%s", mission.name))
 				break
@@ -597,6 +590,10 @@ local function infoGetter(what)
 	elseif what == "followers" or what == "f" then
 		checkFollowersAvailability()
 	elseif what == "rewards" or what == "r" then
+		if #ZyersATALData.rewardsPrio.order == 0 then
+			print("You don't have any rewards chosen.")
+			return
+		end
 		local p
 		for k, v in pairs(ZyersATALData.rewardsPrio.order) do
 			if p then
@@ -617,7 +614,7 @@ do
 '/atal make' to send missions
 '/atal remove <id>' to remove every team from a mission
 '/atal change <var>' to change setting
-'/atal get <option>' for info on missions/teams/followers
+'/atal get <option>' for info on missions/teams/followers/rewards
 '/atal options' to open the options menu
 '/atal complete 123' to auto set all missions as completed]]
 	cmdList.make = makeTeams

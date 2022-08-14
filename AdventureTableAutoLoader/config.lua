@@ -2,50 +2,64 @@ local addonName, T = ...
 
 T.configFrame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 
+--[[
+	Most useful commands:
+	"/atal make" will send all missions it can
+	"/atal get missions" will print a list of available missions and how many teams are available for each
+	"/atal get followers will print all followers and their statuses
+	
+	extra use:
+	to add a new team to any mission, set up the mission team as if you were to manually send it and then use "/atal add" to save it
+	you can remove all teams saved to a mission with "/atal remove <id>", no you cant remove only 1 at a time without manually going to the savedVars
+
+	known issues:
+	i dont check for current anima anywhere apart from when automatically sending missions, which doesnt send if you have less than 1k anima
+	this hasnt been super tested for non NF covs so have fun
+	occasionally it fails to send missions, probably lag or smth, itll bug the mission page until you /reload
+
+]]
+
 local frame = T.configFrame
 frame.name = addonName
 frame:Hide()
 
-local rewardPrioCBs = {}
 local togglePrioCBs = {}
-local swapTemp
+local upPrioButtons = {}
+local downPrioButtons = {}
 
 local function remakeRewardPrio()
 	ZyersATALData.rewardsPrio = {order = {}}
-	for k, cb in ipairs(togglePrioCBs) do
+	for _, cb in ipairs(togglePrioCBs) do
 		if cb:GetChecked() then
 			ZyersATALData.rewardsPrio.order[#ZyersATALData.rewardsPrio.order+1] = cb.Text:GetText()
 		end
 	end
-	for k, v in pairs(ZyersATALData.rewardsPrio.order) do
-		-- make r = v without spaces
-		local r = string.gsub(v, "%s+", "")
-		for _, vv in pairs(T.RewardTypes.groups[r]) do
+	for _, v in pairs(ZyersATALData.rewardsPrio.order) do
+		for _, vv in pairs(T.RewardTypes[v]) do
 			ZyersATALData.rewardsPrio[#ZyersATALData.rewardsPrio+1] = vv
 		end
 	end
 end
 
-local function swapOrder(reward)
-	if not swapTemp then
-		for k, cb in ipairs(rewardPrioCBs) do
-			if cb.Text == reward then
-				swapTemp = k
-				return
-			end
-		end
-		return
-	end
-	for k, cb in ipairs(rewardPrioCBs) do
-		if cb.Text == reward then
-			rewardPrioCBs[k].Text:SetText(rewardPrioCBs[swapTemp].Text) -- check right
-			rewardPrioCBs[swapTemp].Text:SetText(cb.Text) -- check right
-			break
-		end
-	end
-	-- remakeRewardPrio()
+local function swapUp(v)
+	local t = togglePrioCBs[v].Text:GetText()
+	togglePrioCBs[v].Text:SetText(togglePrioCBs[v-1].Text:GetText())
+	togglePrioCBs[v-1].Text:SetText(t)
+	local t2 = togglePrioCBs[v]:GetChecked()
+	togglePrioCBs[v]:SetChecked(togglePrioCBs[v-1]:GetChecked())
+	togglePrioCBs[v-1]:SetChecked(t2)
+	remakeRewardPrio()
 end
 
+local function swapDown(v)
+	local t = togglePrioCBs[v].Text:GetText()
+	togglePrioCBs[v].Text:SetText(togglePrioCBs[v+1].Text:GetText())
+	togglePrioCBs[v+1].Text:SetText(t)
+	local t2 = togglePrioCBs[v]:GetChecked()
+	togglePrioCBs[v]:SetChecked(togglePrioCBs[v+1]:GetChecked())
+	togglePrioCBs[v+1]:SetChecked(t2)
+	remakeRewardPrio()
+end
 
 frame:SetScript("OnShow", function(frame)
 	local function createCheckbox(name, tooltip)
@@ -105,7 +119,7 @@ frame:SetScript("OnShow", function(frame)
     --description:SetNonSpaceWrap(true)
     description:SetJustifyH("LEFT")
     description:SetJustifyV("TOP")
-	description:SetWidth(400)
+	description:SetWidth(250)
     description:SetText("Change which rewards and in which order you want to prioritise sending missions for.\nThe left checkbox toggles whether you want this reward or not.")
 
 	if not ZyersATALData.rewardsPrio then
@@ -113,33 +127,75 @@ frame:SetScript("OnShow", function(frame)
 	end
 
 	-- set index 0 for the loop and remove later
-	rewardPrioCBs = {[0] = verboseSlider}
 	togglePrioCBs = {[0] = verboseSlider}
+	upPrioButtons = {[0] = verboseSlider}
+	downPrioButtons = {[0] = verboseSlider}
 
 	-- build checkboxes
-	for k, v in ipairs(T.RewardTypes.titles) do
-		-- rewardPrioCBs[k] = createCheckbox("Reward Priority Reorder", "Click on two checkboxes to swap their order")
-		-- rewardPrioCBs[k]:SetPoint("TOPLEFT", rewardPrioCBs[k-1], "BOTTOMLEFT", 0, -10)
-		-- rewardPrioCBs[k].Text:SetText(v.v)
-		-- rewardPrioCBs[k].SetValue = swapOrder(_, rewardPrioCBs[k].Text) -- possible error, make sure its passing the current cb text value
+	local c = 1
+	for _,_ in pairs(T.RewardTypes) do
+		local k = c
 		togglePrioCBs[k] = createCheckbox("Reward Priority Toggle", "Check checkboxes for which missions you want to complete")
 		togglePrioCBs[k]:SetPoint("TOPLEFT", togglePrioCBs[k-1], "BOTTOMLEFT", 0, -5)
-		togglePrioCBs[k].Text:SetText(v)
 		togglePrioCBs[k].SetValue = remakeRewardPrio
+
+		upPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
+		upPrioButtons[k].tooltipText = "Move up"
+		upPrioButtons[k]:SetPoint("TOPLEFT", togglePrioCBs[k], "TOPRIGHT", 150, 0)
+		upPrioButtons[k]:SetScript("OnClick", function() swapUp(k) end)
+		upPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-up-up")
+		upPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-up-down")
+		upPrioButtons[k]:SetSize(25, 25)
+
+		downPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
+		downPrioButtons[k].tooltipText = "Move down"
+		downPrioButtons[k]:SetPoint("TOPLEFT", upPrioButtons[k], "TOPRIGHT", 10, 0)
+		downPrioButtons[k]:SetScript("OnClick", function() swapDown(k) end)
+		downPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-down-up")
+		downPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-down-down")
+		downPrioButtons[k]:SetSize(25, 25)
+		c = c+1
 	end
 
-	-- fix offset
-	rewardPrioCBs[0] = nil
+	-- fix one-offs
 	togglePrioCBs[0] = nil
+	upPrioButtons[0] = nil
+	downPrioButtons[0] = nil
 	togglePrioCBs[1]:SetPoint("TOPLEFT", description, "BOTTOMLEFT", 0, -20)
-	-- rewardPrioCBs[1]:SetPoint("TOPLEFT", togglePrioCBs[1], "TOPRIGHT", 3, 0)
+	upPrioButtons[1]:SetDisabledTexture("interface\\buttons\\arrow-up-disabled")
+	upPrioButtons[1]:Disable()
+	downPrioButtons[#upPrioButtons]:SetDisabledTexture("interface\\buttons\\arrow-down-disabled")
+	downPrioButtons[#upPrioButtons]:Disable()
+	-- upPrioButtons[1]:SetPoint("TOPLEFT", togglePrioCBs[1], "TOPRIGHT", 200, 0)
+	-- downPrioButtons[1]:SetPoint("TOPLEFT", upPrioButtons[1], "TOPRIGHT", 20, 0)
 
 	function frame:Refresh()
 		auto:SetChecked(ZyersATALDataLocal.auto)
 		verboseSlider:SetValue(ZyersATALData.verbose)
-		for k, v in pairs(togglePrioCBs) do
-			togglePrioCBs[k]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[k].Text:GetText()))
-			-- v:SetChecked(nil)
+
+		local function isInCBs(cbs, val)
+			for _, cb in pairs(cbs) do
+				if cb.Text:GetText() == val then
+					return true
+				end
+			end
+			return false
+		end
+
+		for kk, vv in pairs(togglePrioCBs) do
+			if ZyersATALData.rewardsPrio.order[kk] then
+				vv.Text:SetText(ZyersATALData.rewardsPrio.order[kk])
+			else
+				for typ, _ in pairs(T.RewardTypes) do
+					if not isInCBs(togglePrioCBs, typ) then
+						vv.Text:SetText(typ)
+						break
+					end
+				end
+			end
+		end
+		for kk, _ in pairs(togglePrioCBs) do
+			togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
 		end
 	end
 
