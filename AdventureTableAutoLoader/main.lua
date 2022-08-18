@@ -463,12 +463,11 @@ local function printCompleteMissionResponse(success, t)
 	local mission = C_Garrison.GetBasicMissionInfo(mid)
 	if success then
 		if ZyersATALData.verbose >= 1 then
-			if not mission then return print("Completed %d but Blizzard didn't tell me it's name.", mid) end
-			print(string.format("Completed %d %s", mid, mission.name))
+			print(string.format("Completed %d %s", mid, mission and mission.name or ""))
 		end
 	else
 		-- DevTools_Dump(t[5])
-		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid, function () if mission then return mission.name else return "" end end))
+		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid, mission and mission.name or ""))
 		for k, v in pairs(t[5]) do
 			local f = C_Garrison.GetFollowerInfo(v.followerID)
 			if f then print(f.name) end
