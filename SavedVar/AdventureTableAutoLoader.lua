@@ -3130,6 +3130,28 @@ ZyersATALTeams = {
 					"Te'zan", -- [2]
 				},
 			}, -- [2]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1338, -- [1]
+					"Elwyn", -- [2]
+				},
+			}, -- [3]
 		},
 		[2183] = {
 			{
@@ -5166,6 +5188,448 @@ ZyersATALTeams = {
 				},
 			}, -- [21]
 		},
+		[2319] = {
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1266, -- [1]
+					"Hunt-Captain Korayn", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1265, -- [1]
+					"Niya", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1283, -- [1]
+					"Guardian Kota", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [4]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1257, -- [1]
+					"Meatball", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [5]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1280, -- [1]
+					"Chalkyth", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [6]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1325, -- [1]
+					"Croman", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [7]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1285, -- [1]
+					"Te'zan", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [8]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [9]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1284, -- [1]
+					"Master Sha'lor", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [10]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1338, -- [1]
+					"Elwyn", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [11]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1326, -- [1]
+					"Spore of Marasmius", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [12]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1286, -- [1]
+					"Qadarin", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [13]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1288, -- [1]
+					"Groonoomcrooek", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [14]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1278, -- [1]
+					"Duskleaf", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [15]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [16]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1279, -- [1]
+					"Karynmwylyann", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [17]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [18]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1277, -- [1]
+					"Blisswing", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [19]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [20]
+		},
 		[2195] = {
 			{
 				{
@@ -5675,7 +6139,7 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
-		[2216] = {
+		[2186] = {
 			{
 				{
 					1316, -- [1]
@@ -5686,8 +6150,8 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				}, -- [3]
 				{
 					1318, -- [1]
@@ -5720,7 +6184,7 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
-		[2212] = {
+		[2213] = {
 			{
 				{
 					1316, -- [1]
@@ -5744,11 +6208,11 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
-		[2178] = {
+		[2217] = {
 			{
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [1]
 				{
 					1318, -- [1]
@@ -5786,27 +6250,19 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2215] = {
+		[2197] = {
 			{
-				{
+				[0] = {
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
+				},
+				[2] = {
 					1265, -- [1]
 					"Niya", -- [2]
+				},
+				[3] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				},
 			}, -- [1]
 		},
@@ -6120,6 +6576,712 @@ ZyersATALTeams = {
 			}, -- [1]
 		},
 		[2264] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2346] = {
+			{
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				},
+			}, -- [1]
+		},
+		[2330] = {
+			{
+				{
+					1327, -- [1]
+					"Ella", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1339, -- [1]
+					"Yanlar", -- [2]
+				},
+			}, -- [1]
+		},
+		[2233] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2304] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1266, -- [1]
+					"Hunt-Captain Korayn", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1265, -- [1]
+					"Niya", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				},
+			}, -- [3]
+			{
+				{
+					1283, -- [1]
+					"Guardian Kota", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [4]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1257, -- [1]
+					"Meatball", -- [2]
+				},
+			}, -- [5]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1280, -- [1]
+					"Chalkyth", -- [2]
+				},
+			}, -- [6]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1282, -- [1]
+					"Yira'lya", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [7]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1325, -- [1]
+					"Croman", -- [2]
+				},
+			}, -- [8]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1285, -- [1]
+					"Te'zan", -- [2]
+				},
+			}, -- [9]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1281, -- [1]
+					"Lloth'wellyn", -- [2]
+				},
+			}, -- [10]
+			{
+				{
+					1284, -- [1]
+					"Master Sha'lor", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [11]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1287, -- [1]
+					"Watcher Vesperbloom", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [12]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1338, -- [1]
+					"Elwyn", -- [2]
+				},
+			}, -- [13]
+			{
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1326, -- [1]
+					"Spore of Marasmius", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [14]
+			{
+				{
+					1286, -- [1]
+					"Qadarin", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [15]
+			{
+				{
+					1288, -- [1]
+					"Groonoomcrooek", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [16]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1278, -- [1]
+					"Duskleaf", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [17]
+			{
+				{
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [18]
+			{
+				{
+					1279, -- [1]
+					"Karynmwylyann", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [19]
+			{
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+				[2] = {
+					1327, -- [1]
+					"Ella", -- [2]
+				},
+				[4] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+				[3] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [20]
+			{
+				{
+					1277, -- [1]
+					"Blisswing", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				},
+			}, -- [21]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1339, -- [1]
+					"Yanlar", -- [2]
+				},
+			}, -- [22]
+		},
+		[2174] = {
+			{
+				[0] = {
+					1265, -- [1]
+					"Niya", -- [2]
+				},
+				[2] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [1]
+		},
+		[2175] = {
+			{
+				[0] = {
+					1265, -- [1]
+					"Niya", -- [2]
+				},
+				[2] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [1]
+		},
+		[2234] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2266] = {
+			{
+				{
+					1264, -- [1]
+					"Dreamweaver", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [1]
+			{
+				{
+					1338, -- [1]
+					"Elwyn", -- [2]
+				}, -- [1]
+				{
+					1339, -- [1]
+					"Yanlar", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				},
+			}, -- [2]
+			{
+				{
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+				[0] = {
+					1339, -- [1]
+					"Yanlar", -- [2]
+				},
+			}, -- [3]
+		},
+		[2168] = {
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [3]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [4]
+			}, -- [1]
+			["any"] = true,
+		},
+		[2203] = {
 			{
 				{
 					1316, -- [1]
@@ -6620,28 +7782,7 @@ ZyersATALTeams = {
 				},
 			}, -- [22]
 		},
-		[2203] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-			}, -- [1]
-			["any"] = true,
-		},
-		[2233] = {
+		[2178] = {
 			{
 				{
 					1316, -- [1]
@@ -6662,692 +7803,7 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2168] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-			}, -- [1]
-			["any"] = true,
-		},
-		[2174] = {
-			{
-				[0] = {
-					1265, -- [1]
-					"Niya", -- [2]
-				},
-				[2] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [1]
-		},
-		[2175] = {
-			{
-				[0] = {
-					1265, -- [1]
-					"Niya", -- [2]
-				},
-				[2] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [1]
-		},
-		[2234] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-			}, -- [1]
-			["any"] = true,
-		},
-		[2266] = {
-			{
-				{
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1338, -- [1]
-					"Elwyn", -- [2]
-				}, -- [1]
-				{
-					1339, -- [1]
-					"Yanlar", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [2]
-			{
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1339, -- [1]
-					"Yanlar", -- [2]
-				},
-			}, -- [3]
-		},
-		[2304] = {
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1266, -- [1]
-					"Hunt-Captain Korayn", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1265, -- [1]
-					"Niya", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [2]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				},
-			}, -- [3]
-			{
-				{
-					1283, -- [1]
-					"Guardian Kota", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [4]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1257, -- [1]
-					"Meatball", -- [2]
-				},
-			}, -- [5]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1280, -- [1]
-					"Chalkyth", -- [2]
-				},
-			}, -- [6]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1282, -- [1]
-					"Yira'lya", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [7]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1325, -- [1]
-					"Croman", -- [2]
-				},
-			}, -- [8]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1285, -- [1]
-					"Te'zan", -- [2]
-				},
-			}, -- [9]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1281, -- [1]
-					"Lloth'wellyn", -- [2]
-				},
-			}, -- [10]
-			{
-				{
-					1284, -- [1]
-					"Master Sha'lor", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [11]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1287, -- [1]
-					"Watcher Vesperbloom", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [12]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1338, -- [1]
-					"Elwyn", -- [2]
-				},
-			}, -- [13]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1326, -- [1]
-					"Spore of Marasmius", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [14]
-			{
-				{
-					1286, -- [1]
-					"Qadarin", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [15]
-			{
-				{
-					1288, -- [1]
-					"Groonoomcrooek", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [16]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1278, -- [1]
-					"Duskleaf", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [17]
-			{
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [18]
-			{
-				{
-					1279, -- [1]
-					"Karynmwylyann", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [19]
-			{
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-				[2] = {
-					1327, -- [1]
-					"Ella", -- [2]
-				},
-				[4] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-				[3] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [20]
-			{
-				{
-					1277, -- [1]
-					"Blisswing", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [21]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1339, -- [1]
-					"Yanlar", -- [2]
-				},
-			}, -- [22]
-		},
-		[2330] = {
-			{
-				{
-					1327, -- [1]
-					"Ella", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1339, -- [1]
-					"Yanlar", -- [2]
-				},
-			}, -- [1]
-		},
-		[2346] = {
-			{
-				{
-					1339, -- [1]
-					"Yanlar", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				},
-			}, -- [1]
-		},
-		[2217] = {
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-			}, -- [1]
-			["any"] = true,
-		},
-		[2213] = {
+		[2212] = {
 			{
 				{
 					1316, -- [1]
@@ -7371,7 +7827,7 @@ ZyersATALTeams = {
 				},
 			}, -- [1]
 		},
-		[2186] = {
+		[2216] = {
 			{
 				{
 					1316, -- [1]
@@ -7382,8 +7838,8 @@ ZyersATALTeams = {
 					"Ardenweald Trapper", -- [2]
 				}, -- [2]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
 					1318, -- [1]
@@ -7413,447 +7869,29 @@ ZyersATALTeams = {
 			}, -- [1]
 			["any"] = true,
 		},
-		[2319] = {
+		[2215] = {
 			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1266, -- [1]
-					"Hunt-Captain Korayn", -- [2]
-				}, -- [2]
 				{
 					1316, -- [1]
 					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
+				}, -- [2]
+				{
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [3]
 				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [1]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
 					1265, -- [1]
 					"Niya", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
 				},
-			}, -- [2]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1264, -- [1]
-					"Dreamweaver", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [3]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1283, -- [1]
-					"Guardian Kota", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [4]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1257, -- [1]
-					"Meatball", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [5]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1280, -- [1]
-					"Chalkyth", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [6]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1325, -- [1]
-					"Croman", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [7]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1285, -- [1]
-					"Te'zan", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [8]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1281, -- [1]
-					"Lloth'wellyn", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [9]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1284, -- [1]
-					"Master Sha'lor", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [10]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1338, -- [1]
-					"Elwyn", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [11]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1326, -- [1]
-					"Spore of Marasmius", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [12]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1286, -- [1]
-					"Qadarin", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [13]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1288, -- [1]
-					"Groonoomcrooek", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [14]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1278, -- [1]
-					"Duskleaf", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [15]
-			{
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1337, -- [1]
-					"Sulanoom", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [16]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1279, -- [1]
-					"Karynmwylyann", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [17]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1327, -- [1]
-					"Ella", -- [2]
-				}, -- [3]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [4]
-				[0] = {
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				},
-			}, -- [18]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1277, -- [1]
-					"Blisswing", -- [2]
-				}, -- [2]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [3]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [19]
-			{
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [1]
-				{
-					1316, -- [1]
-					"Ardenweald Grovetender", -- [2]
-				}, -- [2]
-				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				}, -- [3]
-				{
-					1339, -- [1]
-					"Yanlar", -- [2]
-				}, -- [4]
-				[0] = {
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
-				},
-			}, -- [20]
+			}, -- [1]
 		},
 	}, -- [3]
 	{
@@ -8187,30 +8225,30 @@ ZyersATALData = {
 		},
 	},
 	["lastFail"] = {
-		2191, -- [1]
+		2343, -- [1]
 		true, -- [2]
 		false, -- [3]
 		false, -- [4]
 		{
 			{
 				["state"] = 1,
-				["followerID"] = "0x000000001F59136F",
+				["followerID"] = "0x000000003DEA5549",
 			}, -- [1]
 			{
 				["state"] = 1,
-				["followerID"] = "0x000000002FD23722",
+				["followerID"] = "0x000000003FBD7787",
 			}, -- [2]
 			{
 				["state"] = 1,
-				["followerID"] = "0x000000002FD23723",
+				["followerID"] = "0x000000003FBD7788",
 			}, -- [3]
 			{
 				["state"] = 1,
-				["followerID"] = "0x000000002FD23724",
+				["followerID"] = "0x000000003FBD7789",
 			}, -- [4]
 			{
 				["state"] = 1,
-				["followerID"] = "0x000000002FD23725",
+				["followerID"] = "0x000000003FBD778A",
 			}, -- [5]
 		}, -- [5]
 		{
@@ -8219,68 +8257,921 @@ ZyersATALData = {
 				{
 					["events"] = {
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 2,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 2100,
+									["oldHealth"] = 3740,
 									["boardIndex"] = 5,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1960,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3530,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [1]
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 2,
 							["type"] = 2,
 							["schoolMask"] = 8,
-							["spellID"] = 93,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1960,
+									["oldHealth"] = 3530,
 									["boardIndex"] = 5,
-									["points"] = 28,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3488,
+								}, -- [1]
+								{
+									["oldHealth"] = 3740,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3698,
+								}, -- [2]
+								{
+									["oldHealth"] = 3740,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3698,
+								}, -- [3]
+								{
+									["oldHealth"] = 3740,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3698,
+								}, -- [4]
+								{
+									["oldHealth"] = 4920,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4878,
+								}, -- [5]
+								{
+									["oldHealth"] = 4920,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4878,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 2,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3488,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3488,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 3698,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3698,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3698,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3698,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 3698,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3698,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4878,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4878,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4878,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4878,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3698,
+									["boardIndex"] = 6,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3488,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3488,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3446,
+								}, -- [1]
+								{
+									["oldHealth"] = 3488,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3446,
+								}, -- [2]
+								{
+									["oldHealth"] = 3698,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3656,
+								}, -- [3]
+								{
+									["oldHealth"] = 3698,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3656,
+								}, -- [4]
+								{
+									["oldHealth"] = 4878,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4836,
+								}, -- [5]
+								{
+									["oldHealth"] = 4878,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4836,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3446,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3446,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 3446,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3446,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3656,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3656,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 3656,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3656,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4836,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4836,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4836,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4836,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3656,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3446,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3446,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3404,
+								}, -- [1]
+								{
+									["oldHealth"] = 3446,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3404,
+								}, -- [2]
+								{
+									["oldHealth"] = 3446,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3404,
+								}, -- [3]
+								{
+									["oldHealth"] = 3656,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3614,
+								}, -- [4]
+								{
+									["oldHealth"] = 4836,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4794,
+								}, -- [5]
+								{
+									["oldHealth"] = 4836,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4794,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3404,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3404,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 3404,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3404,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3404,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3404,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 3614,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3614,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 0,
+							["type"] = 1,
+							["schoolMask"] = 1,
+							["spellID"] = 15,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3614,
+									["boardIndex"] = 8,
+									["points"] = 350,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3264,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3404,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3204,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 2,
+							["schoolMask"] = 9,
+							["spellID"] = 99,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3404,
+									["boardIndex"] = 5,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3124,
+								}, -- [1]
+								{
+									["oldHealth"] = 3204,
+									["boardIndex"] = 6,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2924,
+								}, -- [2]
+								{
+									["oldHealth"] = 3404,
+									["boardIndex"] = 7,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3124,
+								}, -- [3]
+								{
+									["oldHealth"] = 3264,
+									["boardIndex"] = 8,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2984,
+								}, -- [4]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [12]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2100,
+									["boardIndex"] = 2,
+									["points"] = 47,
 									["maxHealth"] = 2100,
-									["newHealth"] = 1932,
+									["newHealth"] = 2053,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 7,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1400,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1400,
+									["boardIndex"] = 0,
+								}, -- [1]
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [2]
+								{
+									["newHealth"] = 2053,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2053,
+									["boardIndex"] = 2,
+								}, -- [3]
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 3,
+								}, -- [4]
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 4,
+								}, -- [5]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2053,
+									["boardIndex"] = 2,
+									["points"] = 47,
+									["maxHealth"] = 2100,
+									["newHealth"] = 2006,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 7,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1400,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1400,
+									["boardIndex"] = 0,
+								}, -- [1]
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [2]
+								{
+									["newHealth"] = 2006,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2006,
+									["boardIndex"] = 2,
+								}, -- [3]
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 3,
+								}, -- [4]
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 4,
+								}, -- [5]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [16]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1400,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1400,
+									["boardIndex"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [17]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [18]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2006,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2006,
+									["boardIndex"] = 2,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [19]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 3,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [20]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2100,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 4,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [21]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2006,
+									["boardIndex"] = 2,
+									["points"] = 88,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1918,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [22]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [1]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [23]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1918,
+									["boardIndex"] = 2,
+									["points"] = 111,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1807,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [24]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [25]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2100,
+									["boardIndex"] = 3,
+									["points"] = 133,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1967,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [26]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [27]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2100,
+									["boardIndex"] = 4,
+									["points"] = 155,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1945,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [28]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [29]
+					},
+				}, -- [1]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 4794,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4584,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [2]
 						{
-							["casterBoardIndex"] = 0,
-							["type"] = 4,
+							["casterBoardIndex"] = 4,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 93,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 112,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4584,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4584,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
+							["auraType"] = 8,
 							["effectIndex"] = 1,
 						}, -- [3]
 						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1932,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1582,
+									["oldHealth"] = 4584,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4374,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -8288,100 +9179,130 @@ ZyersATALData = {
 						}, -- [4]
 						{
 							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 2100,
-									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1750,
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2924,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3124,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2984,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4794,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4794,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 4374,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4374,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [5]
 						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
+							["casterBoardIndex"] = 2,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1582,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1232,
+									["oldHealth"] = 4374,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4164,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [6]
 						{
-							["casterBoardIndex"] = 4,
+							["casterBoardIndex"] = 0,
 							["type"] = 1,
 							["schoolMask"] = 1,
 							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1232,
-									["boardIndex"] = 5,
+									["oldHealth"] = 4164,
+									["boardIndex"] = 11,
 									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 882,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3814,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [7]
 						{
-							["casterBoardIndex"] = 10,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["casterBoardIndex"] = 0,
+							["type"] = 4,
+							["schoolMask"] = 8,
+							["spellID"] = 71,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1400,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1260,
+									["oldHealth"] = 1807,
+									["boardIndex"] = 2,
+									["points"] = 350,
+									["maxHealth"] = 2100,
+									["newHealth"] = 2100,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [8]
 						{
-							["casterBoardIndex"] = 10,
-							["type"] = 7,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["newHealth"] = 3100,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 3100,
-									["boardIndex"] = 10,
+									["oldHealth"] = 3814,
+									["boardIndex"] = 11,
+									["points"] = 200,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3614,
 								}, -- [1]
 							},
-							["auraType"] = 4,
+							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [9]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
+									["oldHealth"] = 2100,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1982,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -8389,18 +9310,19 @@ ZyersATALData = {
 						}, -- [10]
 						{
 							["casterBoardIndex"] = 11,
-							["type"] = 7,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["newHealth"] = 3100,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 3100,
-									["boardIndex"] = 11,
+									["oldHealth"] = 1982,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1864,
 								}, -- [1]
 							},
-							["auraType"] = 4,
+							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [11]
 						{
@@ -8410,95 +9332,16 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1400,
+									["oldHealth"] = 1864,
 									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1230,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1576,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [12]
-						{
-							["casterBoardIndex"] = 5,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1230,
-									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1128,
-								}, -- [1]
-								{
-									["oldHealth"] = 1400,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1298,
-								}, -- [2]
-								{
-									["oldHealth"] = 1400,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1298,
-								}, -- [3]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [13]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1128,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 958,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [14]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 958,
-									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 856,
-								}, -- [1]
-								{
-									["oldHealth"] = 1298,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1196,
-								}, -- [2]
-								{
-									["oldHealth"] = 1298,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1196,
-								}, -- [3]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [15]
 						{
 							["casterBoardIndex"] = 7,
 							["type"] = 0,
@@ -8506,11 +9349,547 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1196,
+									["oldHealth"] = 1967,
 									["boardIndex"] = 3,
-									["points"] = 170,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1679,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1945,
+									["boardIndex"] = 4,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1657,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1576,
+									["boardIndex"] = 2,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1288,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+					},
+				}, -- [2]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3614,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3404,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3124,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3082,
+								}, -- [1]
+								{
+									["oldHealth"] = 2924,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2882,
+								}, -- [2]
+								{
+									["oldHealth"] = 3124,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3082,
+								}, -- [3]
+								{
+									["oldHealth"] = 2984,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2942,
+								}, -- [4]
+								{
+									["oldHealth"] = 4794,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4752,
+								}, -- [5]
+								{
+									["oldHealth"] = 3404,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3362,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3082,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3082,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2882,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2882,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3082,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3082,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2942,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2942,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4752,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4752,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 3362,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 3362,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3362,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3152,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3082,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3040,
+								}, -- [1]
+								{
+									["oldHealth"] = 2882,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2840,
+								}, -- [2]
+								{
+									["oldHealth"] = 3082,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 3040,
+								}, -- [3]
+								{
+									["oldHealth"] = 2942,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2900,
+								}, -- [4]
+								{
+									["oldHealth"] = 4752,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4710,
+								}, -- [5]
+								{
+									["oldHealth"] = 3152,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 3110,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 3040,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3040,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2840,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2840,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 3040,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 3040,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2900,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2900,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4710,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4710,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 3110,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 3110,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 0,
+							["type"] = 1,
+							["schoolMask"] = 1,
+							["spellID"] = 15,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3110,
+									["boardIndex"] = 11,
+									["points"] = 350,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2760,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 2,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2760,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2550,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 2,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 3040,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2998,
+								}, -- [1]
+								{
+									["oldHealth"] = 2840,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2798,
+								}, -- [2]
+								{
+									["oldHealth"] = 3040,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2998,
+								}, -- [3]
+								{
+									["oldHealth"] = 2900,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2858,
+								}, -- [4]
+								{
+									["oldHealth"] = 4710,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4668,
+								}, -- [5]
+								{
+									["oldHealth"] = 2550,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2508,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 2,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2798,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2798,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4668,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4668,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2508,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2508,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2508,
+									["boardIndex"] = 11,
+									["points"] = 200,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2308,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1288,
+									["boardIndex"] = 2,
+									["points"] = 47,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1241,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [12]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1400,
 									["maxHealth"] = 1400,
-									["newHealth"] = 1026,
+									["oldHealth"] = 1400,
+									["boardIndex"] = 0,
+								}, -- [1]
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [2]
+								{
+									["newHealth"] = 1241,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 1241,
+									["boardIndex"] = 2,
+								}, -- [3]
+								{
+									["newHealth"] = 1679,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 1679,
+									["boardIndex"] = 3,
+								}, -- [4]
+								{
+									["newHealth"] = 1657,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 1657,
+									["boardIndex"] = 4,
+								}, -- [5]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1241,
+									["boardIndex"] = 2,
+									["points"] = 47,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1194,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2798,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2798,
+									["boardIndex"] = 6,
+								}, -- [1]
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1194,
+									["boardIndex"] = 2,
+									["points"] = 155,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1039,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -8518,47 +9897,44 @@ ZyersATALData = {
 						}, -- [16]
 						{
 							["casterBoardIndex"] = 7,
-							["type"] = 2,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 127,
+							["spellID"] = 363,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 856,
-									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 754,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
 								}, -- [1]
 								{
-									["oldHealth"] = 1026,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 924,
+									["newHealth"] = 2798,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2798,
+									["boardIndex"] = 6,
 								}, -- [2]
 								{
-									["oldHealth"] = 1196,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1094,
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
+									["boardIndex"] = 8,
 								}, -- [3]
 							},
-							["auraType"] = 0,
+							["auraType"] = 4,
 							["effectIndex"] = 0,
 						}, -- [17]
 						{
-							["casterBoardIndex"] = 8,
+							["casterBoardIndex"] = 7,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1094,
-									["boardIndex"] = 4,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 924,
+									["oldHealth"] = 1679,
+									["boardIndex"] = 3,
+									["points"] = 133,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1546,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -8566,260 +9942,32 @@ ZyersATALData = {
 						}, -- [18]
 						{
 							["casterBoardIndex"] = 8,
-							["type"] = 2,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 127,
+							["spellID"] = 363,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 754,
-									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 652,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
 								}, -- [1]
 								{
-									["oldHealth"] = 924,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 822,
+									["newHealth"] = 2798,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2798,
+									["boardIndex"] = 6,
 								}, -- [2]
 								{
-									["oldHealth"] = 924,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 822,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
 								}, -- [3]
 							},
-							["auraType"] = 0,
+							["auraType"] = 4,
 							["effectIndex"] = 0,
 						}, -- [19]
-					},
-				}, -- [1]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 882,
-									["boardIndex"] = 5,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 742,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 742,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 392,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 350,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 392,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 42,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 652,
-									["boardIndex"] = 2,
-									["points"] = 350,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1002,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 4,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 42,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 4,
-							["type"] = 9,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 42,
-									["boardIndex"] = 5,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 4,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 822,
-									["boardIndex"] = 3,
-									["points"] = 350,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1172,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1750,
-									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1400,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1260,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1120,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [11]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1002,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 832,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [12]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1172,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1002,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [13]
 						{
 							["casterBoardIndex"] = 8,
 							["type"] = 0,
@@ -8827,190 +9975,44 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 822,
+									["oldHealth"] = 1657,
 									["boardIndex"] = 4,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 652,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [14]
-					},
-				}, -- [2]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2100,
-									["boardIndex"] = 6,
-									["points"] = 140,
+									["points"] = 111,
 									["maxHealth"] = 2100,
-									["newHealth"] = 1960,
+									["newHealth"] = 1546,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [1]
+						}, -- [20]
 						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3100,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2750,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 3,
+							["casterBoardIndex"] = 6,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["spellID"] = 363,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1120,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 980,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
 								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
 								{
-									["oldHealth"] = 1400,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
 									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1050,
-								}, -- [1]
+								}, -- [3]
 							},
-							["auraType"] = 0,
+							["auraType"] = 4,
 							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1050,
-									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 700,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 350,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 4,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2750,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2400,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 652,
-									["boardIndex"] = 4,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 512,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 980,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 840,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
+						}, -- [21]
 						{
 							["casterBoardIndex"] = 6,
 							["type"] = 0,
@@ -9018,256 +10020,277 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 832,
+									["oldHealth"] = 1039,
 									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 662,
+									["points"] = 88,
+									["maxHealth"] = 2100,
+									["newHealth"] = 951,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [11]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1002,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 832,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [12]
-						{
-							["casterBoardIndex"] = 8,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 512,
-									["boardIndex"] = 4,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 342,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [13]
+						}, -- [22]
 					},
 				}, -- [3]
 				{
 					["events"] = {
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 3,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 2798,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2798,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4668,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4668,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2308,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2308,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 3,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1960,
+									["oldHealth"] = 2798,
 									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1820,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2400,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2050,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2588,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [2]
 						{
-							["casterBoardIndex"] = 10,
-							["type"] = 3,
+							["casterBoardIndex"] = 4,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 840,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 700,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2588,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2588,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2858,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2858,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4668,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4668,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2308,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2308,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [3]
 						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 700,
-									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 350,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2788,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [4]
 						{
-							["casterBoardIndex"] = 2,
+							["casterBoardIndex"] = 0,
 							["type"] = 1,
 							["schoolMask"] = 1,
 							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 350,
+									["oldHealth"] = 2858,
 									["boardIndex"] = 8,
 									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 0,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2508,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [5]
 						{
-							["casterBoardIndex"] = 2,
-							["type"] = 9,
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 350,
-									["boardIndex"] = 8,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 0,
+									["oldHealth"] = 2588,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2388,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [6]
 						{
-							["casterBoardIndex"] = 4,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["casterBoardIndex"] = 2,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 2050,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1700,
+									["newHealth"] = 2998,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2388,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2388,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2788,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2788,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2508,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2508,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4668,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4668,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2308,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2308,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [7]
 						{
-							["casterBoardIndex"] = 10,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["casterBoardIndex"] = 2,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 342,
-									["boardIndex"] = 4,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 202,
+									["oldHealth"] = 2998,
+									["boardIndex"] = 5,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2788,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [8]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 8,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["newHealth"] = 3100,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 3100,
-									["boardIndex"] = 11,
+									["oldHealth"] = 951,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 833,
 								}, -- [1]
 							},
-							["auraType"] = 4,
+							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [9]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3920,
+									["oldHealth"] = 833,
+									["boardIndex"] = 2,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 611,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [10]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 8,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["newHealth"] = 1700,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 1700,
-									["boardIndex"] = 10,
-								}, -- [1]
-							},
-							["auraType"] = 4,
-							["effectIndex"] = 0,
-						}, -- [11]
-						{
-							["casterBoardIndex"] = 10,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 700,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 560,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [12]
 						{
 							["casterBoardIndex"] = 7,
 							["type"] = 0,
@@ -9275,16 +10298,33 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 832,
+									["oldHealth"] = 1546,
 									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 662,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1324,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [13]
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1546,
+									["boardIndex"] = 4,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1324,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [12]
 						{
 							["casterBoardIndex"] = 6,
 							["type"] = 0,
@@ -9292,11 +10332,28 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 662,
+									["oldHealth"] = 611,
 									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 492,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 389,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 389,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 271,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -9308,16 +10365,16 @@ ZyersATALData = {
 					["events"] = {
 						{
 							["casterBoardIndex"] = 0,
-							["type"] = 0,
+							["type"] = 1,
 							["schoolMask"] = 1,
-							["spellID"] = 11,
+							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1820,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1680,
+									["oldHealth"] = 2508,
+									["boardIndex"] = 8,
+									["points"] = 350,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2158,
 								}, -- [1]
 							},
 							["auraType"] = 0,
@@ -9325,1442 +10382,818 @@ ZyersATALData = {
 						}, -- [1]
 						{
 							["casterBoardIndex"] = 0,
-							["type"] = 2,
+							["type"] = 4,
 							["schoolMask"] = 8,
-							["spellID"] = 93,
+							["spellID"] = 71,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1680,
-									["boardIndex"] = 6,
-									["points"] = 28,
+									["oldHealth"] = 271,
+									["boardIndex"] = 2,
+									["points"] = 350,
 									["maxHealth"] = 2100,
-									["newHealth"] = 1652,
+									["newHealth"] = 621,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [2]
 						{
-							["casterBoardIndex"] = 0,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
+							["casterBoardIndex"] = 3,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 3920,
-									["boardIndex"] = 0,
-									["points"] = 112,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4032,
+									["oldHealth"] = 2388,
+									["boardIndex"] = 6,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2178,
 								}, -- [1]
 							},
 							["auraType"] = 0,
-							["effectIndex"] = 1,
+							["effectIndex"] = 0,
 						}, -- [3]
 						{
 							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1700,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1350,
+									["oldHealth"] = 2788,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2746,
 								}, -- [1]
+								{
+									["oldHealth"] = 2178,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2136,
+								}, -- [2]
+								{
+									["oldHealth"] = 2788,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2746,
+								}, -- [3]
+								{
+									["oldHealth"] = 2158,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2116,
+								}, -- [4]
+								{
+									["oldHealth"] = 4668,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4626,
+								}, -- [5]
+								{
+									["oldHealth"] = 2308,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2266,
+								}, -- [6]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [4]
 						{
 							["casterBoardIndex"] = 3,
-							["type"] = 4,
+							["type"] = 7,
 							["schoolMask"] = 8,
-							["spellID"] = 71,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 492,
-									["boardIndex"] = 2,
-									["points"] = 350,
-									["maxHealth"] = 1400,
-									["newHealth"] = 842,
+									["newHealth"] = 2746,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2746,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2136,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2136,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2746,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2746,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2116,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2116,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4626,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4626,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2266,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2266,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [5]
 						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1350,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1000,
+									["oldHealth"] = 2746,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2536,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [6]
 						{
-							["casterBoardIndex"] = 1,
-							["type"] = 4,
+							["casterBoardIndex"] = 4,
+							["type"] = 2,
 							["schoolMask"] = 8,
-							["spellID"] = 71,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 4032,
-									["boardIndex"] = 0,
-									["points"] = 350,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
+									["oldHealth"] = 2746,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2704,
 								}, -- [1]
+								{
+									["oldHealth"] = 2136,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2094,
+								}, -- [2]
+								{
+									["oldHealth"] = 2536,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2494,
+								}, -- [3]
+								{
+									["oldHealth"] = 2116,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2074,
+								}, -- [4]
+								{
+									["oldHealth"] = 4626,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4584,
+								}, -- [5]
+								{
+									["oldHealth"] = 2266,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2224,
+								}, -- [6]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [7]
 						{
-							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["casterBoardIndex"] = 4,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 3100,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2750,
+									["newHealth"] = 2704,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2704,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 2094,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2094,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2494,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2494,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 2074,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2074,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4584,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4584,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2224,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2224,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [8]
 						{
-							["casterBoardIndex"] = 4,
-							["type"] = 1,
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1000,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 650,
+									["oldHealth"] = 2094,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1894,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [9]
 						{
-							["casterBoardIndex"] = 4,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
+							["casterBoardIndex"] = 1,
+							["type"] = 2,
+							["schoolMask"] = 9,
+							["spellID"] = 99,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 662,
-									["boardIndex"] = 3,
-									["points"] = 350,
-									["maxHealth"] = 1400,
-									["newHealth"] = 1012,
+									["oldHealth"] = 2704,
+									["boardIndex"] = 5,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2424,
 								}, -- [1]
+								{
+									["oldHealth"] = 1894,
+									["boardIndex"] = 6,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1614,
+								}, -- [2]
+								{
+									["oldHealth"] = 2494,
+									["boardIndex"] = 7,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2214,
+								}, -- [3]
+								{
+									["oldHealth"] = 2074,
+									["boardIndex"] = 8,
+									["points"] = 280,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1794,
+								}, -- [4]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [10]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
+							["casterBoardIndex"] = 2,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
+									["oldHealth"] = 2424,
+									["boardIndex"] = 5,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2214,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [11]
 						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
+							["casterBoardIndex"] = 2,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1012,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 842,
+									["oldHealth"] = 2214,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2172,
 								}, -- [1]
+								{
+									["oldHealth"] = 1614,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1572,
+								}, -- [2]
+								{
+									["oldHealth"] = 2214,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 2172,
+								}, -- [3]
+								{
+									["oldHealth"] = 1794,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1752,
+								}, -- [4]
+								{
+									["oldHealth"] = 4584,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4542,
+								}, -- [5]
+								{
+									["oldHealth"] = 2224,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2182,
+								}, -- [6]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [12]
 						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
+							["casterBoardIndex"] = 2,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 842,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 672,
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 5,
 								}, -- [1]
+								{
+									["newHealth"] = 1572,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1572,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 1752,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1752,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4542,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4542,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2182,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2182,
+									["boardIndex"] = 11,
+								}, -- [6]
 							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
+							["auraType"] = 8,
+							["effectIndex"] = 1,
 						}, -- [13]
 						{
 							["casterBoardIndex"] = 10,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 560,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 420,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [14]
-					},
-				}, -- [5]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1652,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1512,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 650,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 300,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2750,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2400,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 350,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 300,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 9,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 300,
-									["boardIndex"] = 10,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 4,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1512,
-									["boardIndex"] = 6,
-									["points"] = 350,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1162,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 7,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["newHealth"] = 2400,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 2400,
-									["boardIndex"] = 11,
-								}, -- [1]
-							},
-							["auraType"] = 4,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 842,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 672,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 672,
+									["oldHealth"] = 621,
 									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 570,
-								}, -- [1]
-								{
-									["oldHealth"] = 672,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 570,
-								}, -- [2]
-								{
-									["oldHealth"] = 202,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 100,
-								}, -- [3]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [11]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 570,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 400,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [12]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 400,
-									["boardIndex"] = 2,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 298,
-								}, -- [1]
-								{
-									["oldHealth"] = 570,
-									["boardIndex"] = 3,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 468,
-								}, -- [2]
-								{
-									["oldHealth"] = 100,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [3]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [13]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 9,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 100,
-									["boardIndex"] = 4,
-									["points"] = 102,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [14]
-					},
-				}, -- [6]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1162,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1022,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2400,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 2050,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 468,
-									["boardIndex"] = 3,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 328,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2050,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1700,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 420,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 280,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 2,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1700,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1350,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 298,
-									["boardIndex"] = 2,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 158,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3920,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 328,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 158,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 158,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 9,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 158,
-									["boardIndex"] = 2,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [11]
-					},
-				}, -- [7]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1022,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 882,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1350,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 1000,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 280,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 140,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 71,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3920,
-									["boardIndex"] = 0,
-									["points"] = 350,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4200,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 3,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1000,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 650,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 158,
-									["boardIndex"] = 3,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 18,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 18,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 9,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 18,
-									["boardIndex"] = 3,
-									["points"] = 170,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4200,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4060,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4060,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3890,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
-					},
-				}, -- [8]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 882,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 742,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 742,
-									["boardIndex"] = 6,
-									["points"] = 28,
-									["maxHealth"] = 2100,
-									["newHealth"] = 714,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3890,
-									["boardIndex"] = 0,
-									["points"] = 112,
-									["maxHealth"] = 4200,
-									["newHealth"] = 4002,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 1,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 1,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 650,
-									["boardIndex"] = 11,
-									["points"] = 350,
-									["maxHealth"] = 3100,
-									["newHealth"] = 300,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 3,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 140,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 9,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 140,
-									["boardIndex"] = 1,
-									["points"] = 140,
-									["maxHealth"] = 1400,
-									["newHealth"] = 0,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 4002,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3832,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [7]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3832,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3662,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [8]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 8,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["newHealth"] = 300,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 300,
-									["boardIndex"] = 11,
-								}, -- [1]
-							},
-							["auraType"] = 4,
-							["effectIndex"] = 0,
-						}, -- [9]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3662,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3522,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [10]
-					},
-				}, -- [9]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 714,
-									["boardIndex"] = 6,
-									["points"] = 140,
+									["points"] = 47,
 									["maxHealth"] = 2100,
 									["newHealth"] = 574,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [1]
+						}, -- [14]
 						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3522,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3352,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3352,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3182,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3182,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 3042,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-					},
-				}, -- [10]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 5,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
 									["oldHealth"] = 574,
-									["boardIndex"] = 6,
-									["points"] = 140,
+									["boardIndex"] = 2,
+									["points"] = 88,
 									["maxHealth"] = 2100,
-									["newHealth"] = 434,
+									["newHealth"] = 486,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1324,
+									["boardIndex"] = 3,
+									["points"] = 88,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1236,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [16]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1324,
+									["boardIndex"] = 4,
+									["points"] = 88,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1236,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [17]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 486,
+									["boardIndex"] = 2,
+									["points"] = 88,
+									["maxHealth"] = 2100,
+									["newHealth"] = 398,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [18]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 398,
+									["boardIndex"] = 2,
+									["points"] = 47,
+									["maxHealth"] = 2100,
+									["newHealth"] = 351,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [19]
+					},
+				}, -- [5]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 0,
+							["type"] = 1,
+							["schoolMask"] = 1,
+							["spellID"] = 15,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1752,
+									["boardIndex"] = 8,
+									["points"] = 350,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1402,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [1]
 						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 3042,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2872,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 2,
+							["casterBoardIndex"] = 3,
+							["type"] = 8,
 							["schoolMask"] = 8,
-							["spellID"] = 127,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 2872,
-									["boardIndex"] = 0,
-									["points"] = 102,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2770,
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 5,
 								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
 								{
-									["oldHealth"] = 2770,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2600,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
+									["newHealth"] = 1572,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1572,
+									["boardIndex"] = 6,
+								}, -- [2]
 								{
-									["oldHealth"] = 2600,
-									["boardIndex"] = 0,
-									["points"] = 102,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2498,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 7,
+								}, -- [3]
 								{
-									["oldHealth"] = 2498,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2358,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [6]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 7,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
+									["newHealth"] = 1402,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1402,
+									["boardIndex"] = 8,
+								}, -- [4]
 								{
-									["newHealth"] = 300,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 300,
+									["newHealth"] = 4542,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4542,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2182,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2182,
 									["boardIndex"] = 11,
-								}, -- [1]
+								}, -- [6]
 							},
-							["auraType"] = 4,
-							["effectIndex"] = 0,
-						}, -- [7]
-					},
-				}, -- [11]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 434,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 294,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2358,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2188,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 6,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2188,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 2018,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 2018,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1878,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-					},
-				}, -- [12]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 294,
-									["boardIndex"] = 6,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 154,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 154,
-									["boardIndex"] = 6,
-									["points"] = 28,
-									["maxHealth"] = 2100,
-									["newHealth"] = 126,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 4,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1878,
-									["boardIndex"] = 0,
-									["points"] = 112,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1990,
-								}, -- [1]
-							},
-							["auraType"] = 0,
+							["auraType"] = 8,
 							["effectIndex"] = 1,
-						}, -- [3]
+						}, -- [2]
 						{
-							["casterBoardIndex"] = 7,
+							["casterBoardIndex"] = 3,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1990,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1820,
+									["oldHealth"] = 1572,
+									["boardIndex"] = 6,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1362,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [4]
+						}, -- [3]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["casterBoardIndex"] = 4,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1820,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1680,
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 1362,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1362,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 1402,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1402,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4542,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4542,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2182,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2182,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2172,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1962,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [5]
 						{
-							["casterBoardIndex"] = 6,
+							["casterBoardIndex"] = 1,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1680,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1510,
+									["oldHealth"] = 1362,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1162,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [6]
-					},
-				}, -- [13]
-				{
-					["events"] = {
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 2,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 2172,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 1162,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1162,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1962,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1962,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 1402,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1402,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4542,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4542,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2182,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2182,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 2,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 126,
-									["boardIndex"] = 6,
-									["points"] = 140,
+									["oldHealth"] = 2172,
+									["boardIndex"] = 5,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1962,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 351,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 233,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 233,
+									["boardIndex"] = 2,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 115,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 115,
+									["boardIndex"] = 2,
+									["points"] = 222,
 									["maxHealth"] = 2100,
 									["newHealth"] = 0,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [1]
+						}, -- [11]
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 5,
 							["type"] = 9,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 126,
-									["boardIndex"] = 6,
-									["points"] = 140,
+									["oldHealth"] = 115,
+									["boardIndex"] = 2,
+									["points"] = 222,
 									["maxHealth"] = 2100,
 									["newHealth"] = 0,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [2]
+						}, -- [12]
 						{
 							["casterBoardIndex"] = 7,
 							["type"] = 0,
@@ -10768,70 +11201,397 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1510,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1340,
+									["oldHealth"] = 1236,
+									["boardIndex"] = 3,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1014,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [3]
+						}, -- [13]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 8,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["newHealth"] = 300,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 300,
-									["boardIndex"] = 11,
+									["oldHealth"] = 1236,
+									["boardIndex"] = 4,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 1014,
 								}, -- [1]
 							},
-							["auraType"] = 4,
+							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [4]
+						}, -- [14]
 						{
-							["casterBoardIndex"] = 11,
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1014,
+									["boardIndex"] = 3,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 792,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+					},
+				}, -- [6]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 0,
 							["type"] = 1,
 							["schoolMask"] = 1,
 							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1340,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1200,
+									["oldHealth"] = 1402,
+									["boardIndex"] = 8,
+									["points"] = 350,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1052,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1962,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1752,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1962,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1920,
+								}, -- [1]
+								{
+									["oldHealth"] = 1162,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1120,
+								}, -- [2]
+								{
+									["oldHealth"] = 1752,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1710,
+								}, -- [3]
+								{
+									["oldHealth"] = 1052,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1010,
+								}, -- [4]
+								{
+									["oldHealth"] = 4542,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4500,
+								}, -- [5]
+								{
+									["oldHealth"] = 2182,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2140,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1920,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1920,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 1120,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1120,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1710,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1710,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 1010,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1010,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4500,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4500,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2140,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2140,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1120,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 920,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [5]
-					},
-				}, -- [14]
-				{
-					["events"] = {
 						{
-							["casterBoardIndex"] = 0,
+							["casterBoardIndex"] = 3,
 							["type"] = 0,
 							["schoolMask"] = 1,
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 2100,
-									["boardIndex"] = 7,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1960,
+									["oldHealth"] = 920,
+									["boardIndex"] = 6,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 710,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [1]
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1920,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1878,
+								}, -- [1]
+								{
+									["oldHealth"] = 710,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 668,
+								}, -- [2]
+								{
+									["oldHealth"] = 1710,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1668,
+								}, -- [3]
+								{
+									["oldHealth"] = 1010,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 968,
+								}, -- [4]
+								{
+									["oldHealth"] = 4500,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4458,
+								}, -- [5]
+								{
+									["oldHealth"] = 2140,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 2098,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 668,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 968,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 968,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4458,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4458,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2098,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2098,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 792,
+									["boardIndex"] = 3,
+									["points"] = 70,
+									["maxHealth"] = 2100,
+									["newHealth"] = 722,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 722,
+									["boardIndex"] = 3,
+									["points"] = 70,
+									["maxHealth"] = 2100,
+									["newHealth"] = 652,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1400,
+									["boardIndex"] = 0,
+									["points"] = 133,
+									["maxHealth"] = 1400,
+									["newHealth"] = 1267,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 668,
+									["boardIndex"] = 6,
+								}, -- [1]
+								{
+									["newHealth"] = 1668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 968,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 968,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [12]
 						{
 							["casterBoardIndex"] = 7,
 							["type"] = 0,
@@ -10839,284 +11599,1284 @@ ZyersATALData = {
 							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1200,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 1030,
+									["oldHealth"] = 652,
+									["boardIndex"] = 3,
+									["points"] = 155,
+									["maxHealth"] = 2100,
+									["newHealth"] = 497,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [2]
+						}, -- [13]
 						{
-							["casterBoardIndex"] = 11,
+							["casterBoardIndex"] = 7,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 668,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 968,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 968,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1014,
+									["boardIndex"] = 4,
+									["points"] = 177,
+									["maxHealth"] = 2100,
+									["newHealth"] = 837,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 668,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [16]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 497,
+									["boardIndex"] = 3,
+									["points"] = 199,
+									["maxHealth"] = 2100,
+									["newHealth"] = 298,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [17]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 1668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 968,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 968,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [18]
+					},
+				}, -- [7]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 0,
 							["type"] = 1,
 							["schoolMask"] = 1,
 							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 1030,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 890,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [3]
-					},
-				}, -- [15]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1960,
-									["boardIndex"] = 7,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1820,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 890,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 720,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 127,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 720,
-									["boardIndex"] = 0,
-									["points"] = 102,
-									["maxHealth"] = 4200,
+									["oldHealth"] = 968,
+									["boardIndex"] = 8,
+									["points"] = 350,
+									["maxHealth"] = 3740,
 									["newHealth"] = 618,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 618,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 478,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 7,
-							["schoolMask"] = 8,
-							["spellID"] = 130,
-							["targetInfo"] = {
-								{
-									["newHealth"] = 300,
-									["maxHealth"] = 3100,
-									["oldHealth"] = 300,
-									["boardIndex"] = 11,
-								}, -- [1]
-							},
-							["auraType"] = 4,
-							["effectIndex"] = 0,
-						}, -- [5]
-					},
-				}, -- [16]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1820,
-									["boardIndex"] = 7,
-									["points"] = 140,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1680,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
 						}, -- [1]
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 2,
-							["schoolMask"] = 8,
-							["spellID"] = 93,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1680,
-									["boardIndex"] = 7,
-									["points"] = 28,
-									["maxHealth"] = 2100,
-									["newHealth"] = 1652,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [2]
 						{
 							["casterBoardIndex"] = 0,
 							["type"] = 4,
 							["schoolMask"] = 8,
-							["spellID"] = 93,
+							["spellID"] = 71,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 478,
-									["boardIndex"] = 0,
-									["points"] = 112,
-									["maxHealth"] = 4200,
-									["newHealth"] = 590,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 1,
-						}, -- [3]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 590,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 420,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [4]
-						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
-							["schoolMask"] = 1,
-							["spellID"] = 15,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 420,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 280,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [5]
-					},
-				}, -- [17]
-				{
-					["events"] = {
-						{
-							["casterBoardIndex"] = 0,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 1652,
-									["boardIndex"] = 7,
-									["points"] = 140,
+									["oldHealth"] = 298,
+									["boardIndex"] = 3,
+									["points"] = 350,
 									["maxHealth"] = 2100,
-									["newHealth"] = 1512,
-								}, -- [1]
-							},
-							["auraType"] = 0,
-							["effectIndex"] = 0,
-						}, -- [1]
-						{
-							["casterBoardIndex"] = 7,
-							["type"] = 0,
-							["schoolMask"] = 1,
-							["spellID"] = 11,
-							["targetInfo"] = {
-								{
-									["oldHealth"] = 280,
-									["boardIndex"] = 0,
-									["points"] = 170,
-									["maxHealth"] = 4200,
-									["newHealth"] = 110,
+									["newHealth"] = 648,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [2]
 						{
-							["casterBoardIndex"] = 11,
-							["type"] = 1,
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
 							["schoolMask"] = 1,
-							["spellID"] = 15,
+							["spellID"] = 11,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 110,
-									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
-									["newHealth"] = 0,
+									["oldHealth"] = 668,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 468,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [3]
 						{
+							["casterBoardIndex"] = 4,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 468,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 468,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1668,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 618,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 618,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4458,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4458,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2098,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2098,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1668,
+									["boardIndex"] = 7,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1458,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1878,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 468,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 468,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1458,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1458,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 618,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 618,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4458,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4458,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 2098,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 2098,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 3,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 468,
+									["boardIndex"] = 6,
+									["points"] = 210,
+									["maxHealth"] = 3740,
+									["newHealth"] = 258,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 648,
+									["boardIndex"] = 3,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 530,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 7,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1267,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1267,
+									["boardIndex"] = 0,
+								}, -- [1]
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [2]
+								{
+									["newHealth"] = 530,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 530,
+									["boardIndex"] = 3,
+								}, -- [3]
+								{
+									["newHealth"] = 837,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 837,
+									["boardIndex"] = 4,
+								}, -- [4]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
 							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 530,
+									["boardIndex"] = 3,
+									["points"] = 118,
+									["maxHealth"] = 2100,
+									["newHealth"] = 412,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 7,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1267,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1267,
+									["boardIndex"] = 0,
+								}, -- [1]
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [2]
+								{
+									["newHealth"] = 412,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 412,
+									["boardIndex"] = 3,
+								}, -- [3]
+								{
+									["newHealth"] = 837,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 837,
+									["boardIndex"] = 4,
+								}, -- [4]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1267,
+									["maxHealth"] = 1400,
+									["oldHealth"] = 1267,
+									["boardIndex"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [12]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 412,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 412,
+									["boardIndex"] = 3,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 837,
+									["maxHealth"] = 2100,
+									["oldHealth"] = 837,
+									["boardIndex"] = 4,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1267,
+									["boardIndex"] = 0,
+									["points"] = 288,
+									["maxHealth"] = 1400,
+									["newHealth"] = 979,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [16]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 412,
+									["boardIndex"] = 3,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 124,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [17]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 837,
+									["boardIndex"] = 4,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 549,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [18]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 124,
+									["boardIndex"] = 3,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [19]
+						{
+							["casterBoardIndex"] = 6,
 							["type"] = 9,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 124,
+									["boardIndex"] = 3,
+									["points"] = 288,
+									["maxHealth"] = 2100,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [20]
+					},
+				}, -- [8]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 2098,
+									["boardIndex"] = 11,
+									["points"] = 200,
+									["maxHealth"] = 4920,
+									["newHealth"] = 1898,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 2,
+							["schoolMask"] = 9,
+							["spellID"] = 99,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 4458,
+									["boardIndex"] = 10,
+									["points"] = 280,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4178,
+								}, -- [1]
+								{
+									["oldHealth"] = 1898,
+									["boardIndex"] = 11,
+									["points"] = 280,
+									["maxHealth"] = 4920,
+									["newHealth"] = 1618,
+								}, -- [2]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 0,
+							["type"] = 1,
 							["schoolMask"] = 1,
 							["spellID"] = 15,
 							["targetInfo"] = {
 								{
-									["oldHealth"] = 110,
+									["oldHealth"] = 1618,
+									["boardIndex"] = 11,
+									["points"] = 350,
+									["maxHealth"] = 4920,
+									["newHealth"] = 1268,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1268,
+									["boardIndex"] = 11,
+									["points"] = 210,
+									["maxHealth"] = 4920,
+									["newHealth"] = 1058,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 2,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1878,
+									["boardIndex"] = 5,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1836,
+								}, -- [1]
+								{
+									["oldHealth"] = 258,
+									["boardIndex"] = 6,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 216,
+								}, -- [2]
+								{
+									["oldHealth"] = 1458,
+									["boardIndex"] = 7,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 1416,
+								}, -- [3]
+								{
+									["oldHealth"] = 618,
+									["boardIndex"] = 8,
+									["points"] = 42,
+									["maxHealth"] = 3740,
+									["newHealth"] = 576,
+								}, -- [4]
+								{
+									["oldHealth"] = 4178,
+									["boardIndex"] = 10,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 4136,
+								}, -- [5]
+								{
+									["oldHealth"] = 1058,
+									["boardIndex"] = 11,
+									["points"] = 42,
+									["maxHealth"] = 4920,
+									["newHealth"] = 1016,
+								}, -- [6]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 7,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1836,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1836,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 216,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1416,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1416,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 576,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 576,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4136,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4136,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 1016,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 1016,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 549,
+									["boardIndex"] = 4,
+									["points"] = 94,
+									["maxHealth"] = 2100,
+									["newHealth"] = 455,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 455,
+									["boardIndex"] = 4,
+									["points"] = 94,
+									["maxHealth"] = 2100,
+									["newHealth"] = 361,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 216,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+								}, -- [1]
+								{
+									["newHealth"] = 1416,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1416,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 576,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 576,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 979,
 									["boardIndex"] = 0,
-									["points"] = 140,
-									["maxHealth"] = 4200,
+									["points"] = 244,
+									["maxHealth"] = 1400,
+									["newHealth"] = 735,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1836,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1836,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 216,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 576,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 576,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [11]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 361,
+									["boardIndex"] = 4,
+									["points"] = 222,
+									["maxHealth"] = 2100,
+									["newHealth"] = 139,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [12]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1836,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1836,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 216,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1416,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1416,
+									["boardIndex"] = 7,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [13]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 139,
+									["boardIndex"] = 4,
+									["points"] = 199,
+									["maxHealth"] = 2100,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [14]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 9,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 139,
+									["boardIndex"] = 4,
+									["points"] = 199,
+									["maxHealth"] = 2100,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [15]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 363,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1836,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1836,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 1416,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1416,
+									["boardIndex"] = 7,
+								}, -- [2]
+								{
+									["newHealth"] = 576,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 576,
+									["boardIndex"] = 8,
+								}, -- [3]
+							},
+							["auraType"] = 4,
+							["effectIndex"] = 0,
+						}, -- [16]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 735,
+									["boardIndex"] = 0,
+									["points"] = 177,
+									["maxHealth"] = 1400,
+									["newHealth"] = 558,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [17]
+					},
+				}, -- [9]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1016,
+									["boardIndex"] = 11,
+									["points"] = 200,
+									["maxHealth"] = 4920,
+									["newHealth"] = 816,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 0,
+							["type"] = 1,
+							["schoolMask"] = 1,
+							["spellID"] = 15,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 816,
+									["boardIndex"] = 11,
+									["points"] = 350,
+									["maxHealth"] = 4920,
+									["newHealth"] = 466,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 4,
+							["type"] = 8,
+							["schoolMask"] = 8,
+							["spellID"] = 302,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1836,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1836,
+									["boardIndex"] = 5,
+								}, -- [1]
+								{
+									["newHealth"] = 216,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+								}, -- [2]
+								{
+									["newHealth"] = 1416,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 1416,
+									["boardIndex"] = 7,
+								}, -- [3]
+								{
+									["newHealth"] = 576,
+									["maxHealth"] = 3740,
+									["oldHealth"] = 576,
+									["boardIndex"] = 8,
+								}, -- [4]
+								{
+									["newHealth"] = 4136,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 4136,
+									["boardIndex"] = 10,
+								}, -- [5]
+								{
+									["newHealth"] = 466,
+									["maxHealth"] = 4920,
+									["oldHealth"] = 466,
+									["boardIndex"] = 11,
+								}, -- [6]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 1,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 558,
+									["boardIndex"] = 0,
+									["points"] = 118,
+									["maxHealth"] = 1400,
+									["newHealth"] = 440,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [4]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 440,
+									["boardIndex"] = 0,
+									["points"] = 222,
+									["maxHealth"] = 1400,
+									["newHealth"] = 218,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 218,
+									["boardIndex"] = 0,
+									["points"] = 222,
+									["maxHealth"] = 1400,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [6]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 9,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 218,
+									["boardIndex"] = 0,
+									["points"] = 222,
+									["maxHealth"] = 1400,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [7]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 8,
+							["schoolMask"] = 1,
+							["spellID"] = 364,
+							["targetInfo"] = {
+								{
+									["newHealth"] = 1000,
+									["maxHealth"] = 1000,
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+								}, -- [1]
+							},
+							["auraType"] = 8,
+							["effectIndex"] = 0,
+						}, -- [8]
+						{
+							["casterBoardIndex"] = 11,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 1000,
+									["boardIndex"] = 1,
+									["points"] = 118,
+									["maxHealth"] = 1000,
+									["newHealth"] = 882,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [9]
+						{
+							["casterBoardIndex"] = 8,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 882,
+									["boardIndex"] = 1,
+									["points"] = 222,
+									["maxHealth"] = 1000,
+									["newHealth"] = 660,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [10]
+						{
+							["casterBoardIndex"] = 6,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 660,
+									["boardIndex"] = 1,
+									["points"] = 222,
+									["maxHealth"] = 1000,
+									["newHealth"] = 438,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [11]
+					},
+				}, -- [10]
+				{
+					["events"] = {
+						{
+							["casterBoardIndex"] = 1,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 216,
+									["boardIndex"] = 6,
+									["points"] = 200,
+									["maxHealth"] = 3740,
+									["newHealth"] = 16,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [1]
+						{
+							["casterBoardIndex"] = 10,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 438,
+									["boardIndex"] = 1,
+									["points"] = 118,
+									["maxHealth"] = 1000,
+									["newHealth"] = 320,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [2]
+						{
+							["casterBoardIndex"] = 5,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 320,
+									["boardIndex"] = 1,
+									["points"] = 222,
+									["maxHealth"] = 1000,
+									["newHealth"] = 98,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [3]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 0,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 98,
+									["boardIndex"] = 1,
+									["points"] = 222,
+									["maxHealth"] = 1000,
 									["newHealth"] = 0,
 								}, -- [1]
 							},
 							["auraType"] = 0,
 							["effectIndex"] = 0,
 						}, -- [4]
+						{
+							["casterBoardIndex"] = 7,
+							["type"] = 9,
+							["schoolMask"] = 1,
+							["spellID"] = 11,
+							["targetInfo"] = {
+								{
+									["oldHealth"] = 98,
+									["boardIndex"] = 1,
+									["points"] = 222,
+									["maxHealth"] = 1000,
+									["newHealth"] = 0,
+								}, -- [1]
+							},
+							["auraType"] = 0,
+							["effectIndex"] = 0,
+						}, -- [5]
 					},
-				}, -- [18]
+				}, -- [11]
 			},
 		}, -- [6]
 	},
