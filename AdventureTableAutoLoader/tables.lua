@@ -224,8 +224,8 @@ T.Covs = {
 			{1304, "Plaguey"},
 		},
 		TroopIDs = {
-			0, -- Maldraxxus Plaguesinger
-			0, -- Maldraxxus Shock Trooper
+			1324, -- Maldraxxus Plaguesinger
+			1321, -- Maldraxxus Shock Trooper
 		}
 	}
 }
