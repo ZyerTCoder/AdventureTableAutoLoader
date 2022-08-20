@@ -578,12 +578,12 @@ local function infoGetter(what)
 			print("No missions of interest found.")
 		end
 
-		for _, mission in pairs(missions) do
-			if getNumberOfTeams(mission.missionID) < 1 then
-				message(string.format("\nThere are missions available without teams.\n%s", mission.name))
-				break
-			end
-		end
+		-- for _, mission in pairs(missions) do
+		-- 	if getNumberOfTeams(mission.missionID) < 1 then
+		-- 		message(string.format("\nThere are missions available without teams.\n%s", mission.name))
+		-- 		break
+		-- 	end
+		-- end
 	elseif what == "teams" or what == "t" then
 		printSavedTeamsInfo()
 	elseif what == "followers" or what == "f" then
