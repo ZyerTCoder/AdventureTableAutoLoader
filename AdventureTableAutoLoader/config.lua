@@ -26,6 +26,7 @@ frame:Hide()
 local togglePrioCBs = {}
 local upPrioButtons = {}
 local downPrioButtons = {}
+local refreshables = {}
 
 local function remakeRewardPrio()
 	ZyersATALData.rewardsPrio = {order = {}}
@@ -70,22 +71,26 @@ frame:SetScript("OnShow", function(frame)
 		return cb
 	end
 
+	-- ######################## title ########################
 	local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 	title:SetPoint("TOPLEFT", 16, -16)
 	title:SetText(addonName)
 
+	-- ######################## auto CB ########################
 	local auto = createCheckbox("Auto", "Toggle automatically completing quests and sending missions upon opening the mission table.")
 	auto:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 10, -10)
 	auto.SetValue = function(_, value)
 		ZyersATALDataLocal.auto = (value == "1")
 	end
+	function auto.refresh() auto:SetChecked(ZyersATALDataLocal.auto) end
+	refreshables[#refreshables+1] = auto
 
+	-- ######################## verboseSlider ########################
 	local verboseSlider = CreateFrame("Slider", nil, frame, "OptionsSliderTemplate")
 	do
 		verboseSlider:SetPoint("TOPLEFT", auto, "BOTTOMLEFT", 0, -20)
 		verboseSlider:SetMinMaxValues(0, 3)
 		verboseSlider:SetValueStep(1)
-		verboseSlider.Text:SetText("Debug level")
 		verboseSlider.Low:SetText("0")
 		verboseSlider.High:SetText("3")
 		verboseSlider.tooltipText = "Change how much info the addon prints out:"
@@ -100,19 +105,17 @@ frame:SetScript("OnShow", function(frame)
 0: everything else: errors and command responses]]
 		verboseSlider:SetScript("OnValueChanged", function(_, value)
 			ZyersATALData.verbose = value
-			verboseSlider:SetValue(ZyersATALData.verbose)
+			verboseSlider:SetValue(value)
+			verboseSlider.Text:SetText("Debug level: " .. floor(value))
 		end)
+		function verboseSlider.refresh()
+			verboseSlider:SetValue(ZyersATALData.verbose)
+			verboseSlider.Text:SetText("Debug level: " .. ZyersATALData.verbose)
+		end
+		refreshables[#refreshables+1] = verboseSlider
 	end
 
-	-- local btName = "Set Reward Priority"
-	-- local setRewardPrioButton = CreateFrame("Button", addonName .. "Button" .. btName, frame, "UIPanelButtonTemplate")
-	-- setRewardPrioButton.tooltipText = btName
-	-- setRewardPrioButton.tooltipRequirement = "Save the selected reward priority"
-	-- setRewardPrioButton:SetPoint("TOPLEFT", verboseSlider, "BOTTOMLEFT", 0, -40)
-	-- setRewardPrioButton:SetText(btName)
-	-- setRewardPrioButton:SetWidth(setRewardPrioButton:GetTextWidth() * 1.2)
-	-- setRewardPrioButton.SetValue = remakeRewardPrio
-
+	-- ######################## reward prio cbs description text ########################
 	local description = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightMedium")
     description:SetPoint("TOPLEFT", verboseSlider, "BOTTOMLEFT", 0, -30)
     -- description:SetPoint("RIGHT", frame, -32, 0)
@@ -122,56 +125,112 @@ frame:SetScript("OnShow", function(frame)
 	description:SetWidth(250)
     description:SetText("Change which rewards and in which order you want to prioritise sending missions for.\nThe left checkbox toggles whether you want this reward or not.")
 
-	if not ZyersATALData.rewardsPrio then
-		ZyersATALData.rewardsPrio = T.DefaultRewardPrio
+	-- ######################## rewardPrioCBs ########################
+	do
+		if not ZyersATALData.rewardsPrio then
+			ZyersATALData.rewardsPrio = T.Defaults.RewardPrio
+		end
+
+		-- set index 0 for the loop and remove later
+		togglePrioCBs = {[0] = verboseSlider}
+		upPrioButtons = {[0] = verboseSlider}
+		downPrioButtons = {[0] = verboseSlider}
+
+		-- build checkboxes
+		local c = 1
+		for _,_ in pairs(T.RewardTypes) do
+			local k = c
+			togglePrioCBs[k] = createCheckbox("Reward Priority Toggle", "Check checkboxes for which missions you want to complete")
+			togglePrioCBs[k]:SetPoint("TOPLEFT", togglePrioCBs[k-1], "BOTTOMLEFT", 0, -5)
+			togglePrioCBs[k].SetValue = remakeRewardPrio
+
+			upPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
+			upPrioButtons[k].tooltipText = "Move up"
+			upPrioButtons[k]:SetPoint("TOPLEFT", togglePrioCBs[k], "TOPRIGHT", 150, 0)
+			upPrioButtons[k]:SetScript("OnClick", function() swapUp(k) end)
+			upPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-up-up")
+			upPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-up-down")
+			upPrioButtons[k]:SetSize(25, 25)
+
+			downPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
+			downPrioButtons[k].tooltipText = "Move down"
+			downPrioButtons[k]:SetPoint("TOPLEFT", upPrioButtons[k], "TOPRIGHT", 10, 0)
+			downPrioButtons[k]:SetScript("OnClick", function() swapDown(k) end)
+			downPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-down-up")
+			downPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-down-down")
+			downPrioButtons[k]:SetSize(25, 25)
+			c = c+1
+		end
+
+		-- fix one-offs
+		togglePrioCBs[0] = nil
+		upPrioButtons[0] = nil
+		downPrioButtons[0] = nil
+		togglePrioCBs[1]:SetPoint("TOPLEFT", description, "BOTTOMLEFT", 0, -20)
+		upPrioButtons[1]:SetDisabledTexture("interface\\buttons\\arrow-up-disabled")
+		upPrioButtons[1]:Disable()
+		downPrioButtons[#upPrioButtons]:SetDisabledTexture("interface\\buttons\\arrow-down-disabled")
+		downPrioButtons[#upPrioButtons]:Disable()
+		-- upPrioButtons[1]:SetPoint("TOPLEFT", togglePrioCBs[1], "TOPRIGHT", 200, 0)
+		-- downPrioButtons[1]:SetPoint("TOPLEFT", upPrioButtons[1], "TOPRIGHT", 20, 0)
+
+	-- 	local function isInCBs(cbs, val)
+	-- 		for _, cb in pairs(cbs) do
+	-- 			if cb.Text:GetText() == val then
+	-- 				return true
+	-- 			end
+	-- 		end
+	-- 		return false
+	-- 	end
+
+	-- 	function togglePrioCBs.refresh()
+	-- 		for kk, vv in pairs(togglePrioCBs) do
+	-- 			if ZyersATALData.rewardsPrio.order[kk] then
+	-- 				vv.Text:SetText(ZyersATALData.rewardsPrio.order[kk])
+	-- 			else
+	-- 				for typ, _ in pairs(T.RewardTypes) do
+	-- 					if not isInCBs(togglePrioCBs, typ) then
+	-- 						vv.Text:SetText(typ)
+	-- 						break
+	-- 					end
+	-- 				end
+	-- 			end
+	-- 		end
+	-- 		for kk, _ in pairs(togglePrioCBs) do
+	-- 			togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
+	-- 		end
+	-- 	end
+	-- 	refreshables[#refreshables+1] = togglePrioCBs
 	end
 
-	-- set index 0 for the loop and remove later
-	togglePrioCBs = {[0] = verboseSlider}
-	upPrioButtons = {[0] = verboseSlider}
-	downPrioButtons = {[0] = verboseSlider}
-
-	-- build checkboxes
-	local c = 1
-	for _,_ in pairs(T.RewardTypes) do
-		local k = c
-		togglePrioCBs[k] = createCheckbox("Reward Priority Toggle", "Check checkboxes for which missions you want to complete")
-		togglePrioCBs[k]:SetPoint("TOPLEFT", togglePrioCBs[k-1], "BOTTOMLEFT", 0, -5)
-		togglePrioCBs[k].SetValue = remakeRewardPrio
-
-		upPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
-		upPrioButtons[k].tooltipText = "Move up"
-		upPrioButtons[k]:SetPoint("TOPLEFT", togglePrioCBs[k], "TOPRIGHT", 150, 0)
-		upPrioButtons[k]:SetScript("OnClick", function() swapUp(k) end)
-		upPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-up-up")
-		upPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-up-down")
-		upPrioButtons[k]:SetSize(25, 25)
-
-		downPrioButtons[k] = CreateFrame("Button", addonName .. "ButtonUpPrio" .. k, frame, "UIPanelButtonTemplate")
-		downPrioButtons[k].tooltipText = "Move down"
-		downPrioButtons[k]:SetPoint("TOPLEFT", upPrioButtons[k], "TOPRIGHT", 10, 0)
-		downPrioButtons[k]:SetScript("OnClick", function() swapDown(k) end)
-		downPrioButtons[k]:SetNormalTexture("interface\\buttons\\arrow-down-up")
-		downPrioButtons[k]:SetPushedTexture("interface\\buttons\\arrow-down-down")
-		downPrioButtons[k]:SetSize(25, 25)
-		c = c+1
+	-- ######################## missionCostSlider ########################
+	local missionCostSlider = CreateFrame("Slider", nil, frame, "OptionsSliderTemplate")
+	do
+		missionCostSlider:SetPoint("TOPLEFT", verboseSlider, "TOPRIGHT", 20, 0)
+		local min, max = 0, 200
+		missionCostSlider:SetMinMaxValues(min, max)
+		missionCostSlider:SetValueStep(1)
+		missionCostSlider.Low:SetText(min)
+		missionCostSlider.High:SetText(max)
+		missionCostSlider.tooltipText = "Maximum mission cost"
+		missionCostSlider.tooltipRequirement = "Set the maximum anima cost for missions"
+		missionCostSlider:SetScript("OnValueChanged", function(_, value)
+			ZyersATALData.maxMissionCost = value
+			missionCostSlider:SetValue(value)
+			missionCostSlider.Text:SetText("Max mission cost: " .. floor(value))
+		end)
+		function missionCostSlider.refresh()
+			missionCostSlider:SetValue(ZyersATALData.maxMissionCost)
+			missionCostSlider.Text:SetText("Max mission cost: " .. ZyersATALData.maxMissionCost)
+		end
+		refreshables[#refreshables+1] = missionCostSlider
 	end
-
-	-- fix one-offs
-	togglePrioCBs[0] = nil
-	upPrioButtons[0] = nil
-	downPrioButtons[0] = nil
-	togglePrioCBs[1]:SetPoint("TOPLEFT", description, "BOTTOMLEFT", 0, -20)
-	upPrioButtons[1]:SetDisabledTexture("interface\\buttons\\arrow-up-disabled")
-	upPrioButtons[1]:Disable()
-	downPrioButtons[#upPrioButtons]:SetDisabledTexture("interface\\buttons\\arrow-down-disabled")
-	downPrioButtons[#upPrioButtons]:Disable()
-	-- upPrioButtons[1]:SetPoint("TOPLEFT", togglePrioCBs[1], "TOPRIGHT", 200, 0)
-	-- downPrioButtons[1]:SetPoint("TOPLEFT", upPrioButtons[1], "TOPRIGHT", 20, 0)
 
 	function frame:Refresh()
-		auto:SetChecked(ZyersATALDataLocal.auto)
-		verboseSlider:SetValue(ZyersATALData.verbose)
+		-- auto:SetChecked(ZyersATALDataLocal.auto)
+		-- auto.refresh()
+		-- verboseSlider:SetValue(ZyersATALData.verbose)
+		-- verboseSlider.refresh()
 
 		local function isInCBs(cbs, val)
 			for _, cb in pairs(cbs) do
@@ -196,6 +255,14 @@ frame:SetScript("OnShow", function(frame)
 		end
 		for kk, _ in pairs(togglePrioCBs) do
 			togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
+		end
+		-- togglePrioCBs.refresh()
+
+		-- missionCostSlider:SetValue(ZyersATALData.maxMissionCost)
+		-- missionCostSlider.refresh()
+
+		for _, element in pairs(refreshables) do
+			element.refresh()
 		end
 	end
 

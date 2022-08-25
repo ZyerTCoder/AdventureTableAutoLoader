@@ -1,6 +1,11 @@
 local _, T = ...
 
-T.DefaultRewardPrio = {
+T.Defaults = {
+	MaxMissionCost = 60,
+	Verbose = 1,
+}
+
+T.Defaults.RewardPrio = {
 	order = {"Campaign Progress", "Gold Reward", "XP Items", "Augment Runes", "Pet Charms", "Anima"},
 	-- Campaign Progress
 	{"title", "Currency Reward", 1889},
@@ -101,6 +106,7 @@ T.RewardTypes = {
 	["Venthyr Reputation"] = {{"title", "Currency Reward", 1805},},
 	["Night Fae Reputation"] = {{"title", "Currency Reward", 1806},},
 	["Necrolord Reputation"] = {{"title", "Currency Reward", 1807},},
+	-- rest of rewards
 }
 
 T.Covs = {

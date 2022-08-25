@@ -1,14 +1,11 @@
 local _, T = ...
 -- TODO
--- get a couple checks in when sending missions (interrupt on lack of anima or when you leave the table)
 -- atal will think the mission fails if theres too high lag <1000ms maybe desynced event orders?
--- change populateMission to be part of the queue so it doesnt freeze for as much long running make
--- add an option to change maximum mission cost
--- instead of requiring a minimum of 1000 anima instead send missions until you run out
--- abort sending missions if you run out of anima or if you leave the table
--- add a button on the table gui to make ?
+-- add a button on the table gui to make/cmpl ?
+-- add button on mission page to save/add team ?
 
 local cmdList = {}
+local notAtGarrNPC = true
 
 local function getTableLen(tab)
 	local c = 0
@@ -178,9 +175,8 @@ local function getMissionsTodo()
 	local missions = C_Garrison.GetAvailableMissions(123)
 	for _, rewardType in pairs(ZyersATALData.rewardsPrio) do
 		for _, mission in pairs(missions) do
-			if not T.isInTable(missionsToDo, mission) then
+			if not T.isInTable(missionsToDo, mission) and mission.basecost <= ZyersATALData.maxMissionCost then -- TODO add missionCost chest here ZyersATALData.maxMissionCost
 				for _, reward in pairs(mission.rewards) do
-				--DevTools_Dump(reward)
 					local k, reTyp, currID = rewardType[1], rewardType[2], rewardType[3]
 					if k == "title" then
 						if reward.title == reTyp and (reward.currencyID == currID or reward.currencyID == 0) then
@@ -188,7 +184,7 @@ local function getMissionsTodo()
 							missionsToDo[#missionsToDo +1] = mission
 							if ZyersATALData.verbose >= 2 then
 								local currName = C_CurrencyInfo.GetCurrencyLink(currID or 0)
-								print(string.format("%s %s for %s %s%s", mission.missionID, mission.name, reTyp, currName or " ", s))
+								print(string.format("%s %s for %s %s %s", mission.missionID, mission.name, reTyp, currName or "", s))
 							end
 						end
 					elseif k == "itemID" then
@@ -210,6 +206,12 @@ local function getMissionsTodo()
 	end
 	return missionsToDo
 end
+
+local function getAnima()
+	local anima = C_CurrencyInfo.GetCurrencyInfo(1813)
+	return anima.quantity
+end
+
 
 local function isFollowerGood(followerID)
 	-- max level and full hp
@@ -260,9 +262,22 @@ local function makeTeams(testMode)
 	do -- for the queue space
 		-- queue functions
 		local queue = {}
-		local queueTick = function()
+		local qTicker
+		local queueTick = function() --TODO a bunch of things related to populateMission and stopping the q early
 			local i, v = next(queue)
+			if not i then print("nothing in q, clear me after testing this works") return end -- stop if queue is empty, this will only happen if the queue is cleared before ticking for every element
+			if v[1].basecost + 4 > getAnima() then -- always assume max troop number
+				qTicker:Cancel()
+				print("|cFFFF0000Abordted sending missions: Not enough anima.")
+				return
+			end
+			if notAtGarrNPC then
+				qTicker:Cancel()
+				print("|cFFFF0000Aborted sending missions: Left the table")
+				return
+			end
 			if not testMode then
+				populateMission(v[1], v[2])
 				C_Garrison.StartMission(v[1].missionID)
 			end
 			queue[i] = nil
@@ -298,12 +313,10 @@ local function makeTeams(testMode)
 							team[i] = v
 						end
 					end
-					if populateMission(mission, team, testMode) then
-						missionSent = true
-						followers[k] = nil
-						queueAdd({mission, team})
-						break
-					end
+					missionSent = true
+					followers[k] = nil
+					queueAdd({mission, team})
+					break
 				else
 					-- print(mission.missionID, fol[2])
 					for _, team in pairs(ZyersATALTeams[T.CurrCov][mission.missionID]) do
@@ -313,21 +326,18 @@ local function makeTeams(testMode)
 								-- print(mission.missionID, fol[2], "good")
 								-- print("team with", fol[2])
 								if checkTeamAvailable(team, followers) then
-									-- print("and it is available")
-									if populateMission(mission, team, testMode) then
-										-- print("and mission populated")
-										missionSent = true
-										--followers[k] = nil
-										for _, mem in pairs(team) do
-											for j, foll in pairs(followers) do
-												if mem[1] == foll[1] then
-													followers[j] = nil
-												end
+									-- print("and it is available, added to queue")
+									missionSent = true
+									--followers[k] = nil
+									for _, mem in pairs(team) do
+										for j, foll in pairs(followers) do
+											if mem[1] == foll[1] then
+												followers[j] = nil
 											end
 										end
-										queueAdd({mission, team})
-										break
 									end
+									queueAdd({mission, team})
+									break
 								end
 							end
 						end
@@ -337,7 +347,7 @@ local function makeTeams(testMode)
 		end
 		print("Got", #queue, "missions")
 		if #queue > 0 then
-			C_Timer.NewTicker(0.5, queueTick, #queue)
+			qTicker = C_Timer.NewTicker(0.5, queueTick, #queue)
 		end
 	end
 	if ZyersATALData.verbose >= 3 then
@@ -371,7 +381,7 @@ local function fixSavedVars()
 		ZyersATALDataLocal = {}
 	end
 	if not ZyersATALData.rewardsPrio then
-		ZyersATALData.rewardsPrio = T.DefaultRewardPrio
+		ZyersATALData.rewardsPrio = T.Defaults.RewardPrio
 	end
 	local currentCov = C_Covenants.GetActiveCovenantID()
 	if ZyersATALTeams == nil then
@@ -385,7 +395,10 @@ local function fixSavedVars()
 		ZyersATALidConv = {}
 	end
 	if ZyersATALData.verbose == nil then
-		ZyersATALData.verbose = 1
+		ZyersATALData.verbose = T.Defaults.Verbose
+	end
+	if ZyersATALData.maxMissionCost == nil then
+		ZyersATALData.maxMissionCost = T.Defaults.MaxMissionCost
 	end
 	local fols = C_Garrison.GetFollowers(123)
 	-- if not fols then C_Timer.NewTicker(1, fixSavedVars, 1) return end
@@ -396,35 +409,6 @@ local function fixSavedVars()
 	end
 	for _,f in pairs(C_Garrison.GetAutoTroops(123)) do
 		ZyersATALidConv[f.garrFollowerID] = f.followerID
-	end
-end
-
--- unused
-local function makeForXP(testMode)
-	-- sort available missions by xp
-	local missions = getMissionsToDoByXp()
-	-- sort followers by missing xp
-	local followers = getAvailableFollowersSortedByXP()
-	do
-		local queue = {}
-		local queueTick = function()
-			local i, v = next(queue)
-			if not testMode then
-				C_Garrison.StartMission(v[1].missionID)
-			end
-			queue[i] = nil
-			if ZyersATALData.verbose >= 1 then
-				print(string.format("Sent %s to %s.", getTeamString(v[2]), v[1].name))
-			end
-		end
-
-		local queueAdd = function(v)
-			queue[#queue+1] = v
-			if ZyersATALData.verbose >= 2 then
-				print(string.format("Added %s to the queue with %s", v[1].name, getTeamString(v[2])))
-			end
-		end
-		-- put followers into missions
 	end
 end
 
@@ -486,11 +470,6 @@ local function completeAllMissions(xpac)
 	end
 end
 
-local function getAnima()
-	local anima = C_CurrencyInfo.GetCurrencyInfo(1813)
-	return anima.quantity
-end
-
 local function checkFollowersAvailability()
 	local fols = C_Garrison.GetFollowers(123)
 	for _, f in pairs(fols) do
@@ -527,7 +506,6 @@ frame:RegisterEvent("GARRISON_MISSION_NPC_OPENED")
 frame:RegisterEvent("GARRISON_MISSION_NPC_CLOSED")
 frame:RegisterEvent("GARRISON_MISSION_COMPLETE_RESPONSE")
 frame:RegisterEvent("GARRISON_MISSION_BONUS_ROLL_COMPLETE")
-local notAtGarrNPC = true
 local completedMissions = {}
 function frame:OnEvent(event, ...)
 	local arg = {...}
@@ -539,11 +517,7 @@ function frame:OnEvent(event, ...)
 			notAtGarrNPC = false
 			if arg[1] == 123 then -- SL command table
 				completeAllMissions(123)
-				if getAnima() > 1000 then
-					C_Timer.After(1, makeTeams)
-				else
-					C_Timer.After(1, function() print("You have less than 1000 anima. Use /atal make to send teams.") end)
-				end
+				C_Timer.After(1, makeTeams)
 			elseif arg[1] == 1 then -- WoD command table
 				completeAllMissions(1)
 			end
