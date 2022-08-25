@@ -458,7 +458,6 @@ local function changeSavedVar(var, value)
 end
 
 local function printCompleteMissionResponse(success, t)
-	-- print("btw, complete_response input with", arg)
 	local mid = t[1]
 	local mission = C_Garrison.GetBasicMissionInfo(mid)
 	if success then
@@ -466,7 +465,6 @@ local function printCompleteMissionResponse(success, t)
 			print(string.format("Completed %d %s", mid, mission and mission.name or ""))
 		end
 	else
-		-- DevTools_Dump(t[5])
 		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the general saved vars", mid, mission and mission.name or ""))
 		for k, v in pairs(t[5]) do
 			local f = C_Garrison.GetFollowerInfo(v.followerID)
@@ -532,13 +530,7 @@ frame:RegisterEvent("GARRISON_MISSION_BONUS_ROLL_COMPLETE")
 local notAtGarrNPC = true
 local completedMissions = {}
 function frame:OnEvent(event, ...)
-	--print("reacting to" , event, ...)
 	local arg = {...}
-	-- if event == "ADDON_LOADED" then
-	-- 	if arg[1] == "AdventureTableAutoLoader" then
-	-- 		self:InitializeOptions()
-	-- 	end
-	-- end
 	if event == "GARRISON_MISSION_NPC_OPENED" then
 		if notAtGarrNPC then
 			fixSavedVars()
@@ -577,13 +569,6 @@ local function infoGetter(what)
 		if #missions == 0 then
 			print("No missions of interest found.")
 		end
-
-		-- for _, mission in pairs(missions) do
-		-- 	if getNumberOfTeams(mission.missionID) < 1 then
-		-- 		message(string.format("\nThere are missions available without teams.\n%s", mission.name))
-		-- 		break
-		-- 	end
-		-- end
 	elseif what == "teams" or what == "t" then
 		printSavedTeamsInfo()
 	elseif what == "followers" or what == "f" then
