@@ -3524,24 +3524,24 @@ ZyersATALTeams = {
 		[2345] = {
 			{
 				{
-					1327, -- [1]
-					"Ella", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				}, -- [1]
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1285, -- [1]
+					"Te'zan", -- [2]
 				}, -- [2]
 				{
-					1318, -- [1]
-					"Ardenweald Trapper", -- [2]
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
 				}, -- [3]
 				{
 					1318, -- [1]
 					"Ardenweald Trapper", -- [2]
 				}, -- [4]
 				[0] = {
-					1285, -- [1]
-					"Te'zan", -- [2]
+					1318, -- [1]
+					"Ardenweald Trapper", -- [2]
 				},
 			}, -- [1]
 		},
@@ -6687,6 +6687,28 @@ ZyersATALTeams = {
 					"Yanlar", -- [2]
 				},
 			}, -- [1]
+			{
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [1]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [2]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [3]
+				{
+					1316, -- [1]
+					"Ardenweald Grovetender", -- [2]
+				}, -- [4]
+				[0] = {
+					1337, -- [1]
+					"Sulanoom", -- [2]
+				},
+			}, -- [2]
 		},
 		[2233] = {
 			{
@@ -12604,6 +12626,6 @@ ZyersATALData = {
 			"Necrolord Reputation", -- [9]
 		},
 	},
-	["verbose"] = 3,
+	["verbose"] = 1,
 	["maxMissionCost"] = 81,
 }
