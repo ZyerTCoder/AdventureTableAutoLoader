@@ -174,33 +174,35 @@ frame:SetScript("OnShow", function(frame)
 		-- upPrioButtons[1]:SetPoint("TOPLEFT", togglePrioCBs[1], "TOPRIGHT", 200, 0)
 		-- downPrioButtons[1]:SetPoint("TOPLEFT", upPrioButtons[1], "TOPRIGHT", 20, 0)
 
-	-- 	local function isInCBs(cbs, val)
-	-- 		for _, cb in pairs(cbs) do
-	-- 			if cb.Text:GetText() == val then
-	-- 				return true
-	-- 			end
-	-- 		end
-	-- 		return false
-	-- 	end
+		local function isInCBs(cbs, val)
+			for i, cb in pairs(cbs) do
+				if cb.Text:GetText() == val then
+					return true
+				end
+			end
+			return false
+		end
 
-	-- 	function togglePrioCBs.refresh()
-	-- 		for kk, vv in pairs(togglePrioCBs) do
-	-- 			if ZyersATALData.rewardsPrio.order[kk] then
-	-- 				vv.Text:SetText(ZyersATALData.rewardsPrio.order[kk])
-	-- 			else
-	-- 				for typ, _ in pairs(T.RewardTypes) do
-	-- 					if not isInCBs(togglePrioCBs, typ) then
-	-- 						vv.Text:SetText(typ)
-	-- 						break
-	-- 					end
-	-- 				end
-	-- 			end
-	-- 		end
-	-- 		for kk, _ in pairs(togglePrioCBs) do
-	-- 			togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
-	-- 		end
-	-- 	end
-	-- 	refreshables[#refreshables+1] = togglePrioCBs
+		local thingSinceIcantAddToTogglePrioCBS = {}
+		function thingSinceIcantAddToTogglePrioCBS.refresh()
+
+			for kk, vv in pairs(togglePrioCBs) do
+				if ZyersATALData.rewardsPrio.order[kk] then
+					vv.Text:SetText(ZyersATALData.rewardsPrio.order[kk])
+				else
+					for typ, _ in pairs(T.RewardTypes) do
+						if not isInCBs(togglePrioCBs, typ) then
+							vv.Text:SetText(typ)
+							break
+						end
+					end
+				end
+			end
+			for kk, _ in pairs(togglePrioCBs) do
+				togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
+			end
+		end
+		refreshables[#refreshables+1] = thingSinceIcantAddToTogglePrioCBS
 	end
 
 	-- ######################## missionCostSlider ########################
@@ -227,40 +229,6 @@ frame:SetScript("OnShow", function(frame)
 	end
 
 	function frame:Refresh()
-		-- auto:SetChecked(ZyersATALDataLocal.auto)
-		-- auto.refresh()
-		-- verboseSlider:SetValue(ZyersATALData.verbose)
-		-- verboseSlider.refresh()
-
-		local function isInCBs(cbs, val)
-			for _, cb in pairs(cbs) do
-				if cb.Text:GetText() == val then
-					return true
-				end
-			end
-			return false
-		end
-
-		for kk, vv in pairs(togglePrioCBs) do
-			if ZyersATALData.rewardsPrio.order[kk] then
-				vv.Text:SetText(ZyersATALData.rewardsPrio.order[kk])
-			else
-				for typ, _ in pairs(T.RewardTypes) do
-					if not isInCBs(togglePrioCBs, typ) then
-						vv.Text:SetText(typ)
-						break
-					end
-				end
-			end
-		end
-		for kk, _ in pairs(togglePrioCBs) do
-			togglePrioCBs[kk]:SetChecked(T.isInTable(ZyersATALData.rewardsPrio.order, togglePrioCBs[kk].Text:GetText()))
-		end
-		-- togglePrioCBs.refresh()
-
-		-- missionCostSlider:SetValue(ZyersATALData.maxMissionCost)
-		-- missionCostSlider.refresh()
-
 		for _, element in pairs(refreshables) do
 			element.refresh()
 		end
