@@ -467,7 +467,7 @@ local function printCompleteMissionResponse(success, t)
 		end
 	else
 		-- DevTools_Dump(t[5])
-		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the char's saved vars", mid, mission and mission.name or ""))
+		print(string.format("|cFFFF0000Failed %d %s and had these followers, go delete manually, COMPLETE_RESPONSE was saved in the general saved vars", mid, mission and mission.name or ""))
 		for k, v in pairs(t[5]) do
 			local f = C_Garrison.GetFollowerInfo(v.followerID)
 			if f then print(f.name) end
