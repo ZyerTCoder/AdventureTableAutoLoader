@@ -89,10 +89,12 @@ frame:SetScript("OnShow", function(frame)
 	local verboseSlider = CreateFrame("Slider", nil, frame, "OptionsSliderTemplate")
 	do
 		verboseSlider:SetPoint("TOPLEFT", auto, "BOTTOMLEFT", 0, -20)
-		verboseSlider:SetMinMaxValues(0, 3)
+		local min, max = 0, 3
+		verboseSlider:SetMinMaxValues(min, max)
 		verboseSlider:SetValueStep(1)
-		verboseSlider.Low:SetText("0")
-		verboseSlider.High:SetText("3")
+		verboseSlider:SetObeyStepOnDrag(true)
+		verboseSlider.Low:SetText(min)
+		verboseSlider.High:SetText(max)
 		verboseSlider.tooltipText = "Change how much info the addon prints out:"
 		verboseSlider.tooltipRequirement = [[3: debug info 
 - how long it took to calculate missions
@@ -105,8 +107,7 @@ frame:SetScript("OnShow", function(frame)
 0: everything else: errors and command responses]]
 		verboseSlider:SetScript("OnValueChanged", function(_, value)
 			ZyersATALData.verbose = value
-			verboseSlider:SetValue(value)
-			verboseSlider.Text:SetText("Debug level: " .. floor(value))
+			verboseSlider.Text:SetText("Debug level: " .. value)
 		end)
 		function verboseSlider.refresh()
 			verboseSlider:SetValue(ZyersATALData.verbose)
@@ -212,14 +213,14 @@ frame:SetScript("OnShow", function(frame)
 		local min, max = 0, 200
 		missionCostSlider:SetMinMaxValues(min, max)
 		missionCostSlider:SetValueStep(1)
+		missionCostSlider:SetObeyStepOnDrag(true)
 		missionCostSlider.Low:SetText(min)
 		missionCostSlider.High:SetText(max)
 		missionCostSlider.tooltipText = "Maximum mission cost"
 		missionCostSlider.tooltipRequirement = "Set the maximum anima cost for missions"
 		missionCostSlider:SetScript("OnValueChanged", function(_, value)
 			ZyersATALData.maxMissionCost = value
-			missionCostSlider:SetValue(value)
-			missionCostSlider.Text:SetText("Max mission cost: " .. floor(value))
+			missionCostSlider.Text:SetText("Max mission cost: " .. value)
 		end)
 		function missionCostSlider.refresh()
 			missionCostSlider:SetValue(ZyersATALData.maxMissionCost)
