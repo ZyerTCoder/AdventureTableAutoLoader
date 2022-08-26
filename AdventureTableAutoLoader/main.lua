@@ -412,7 +412,7 @@ local function fixSavedVars()
 	end
 end
 
-local function changeSavedVar(var, value)
+local function setSavedVar(var, value)
 	if not var then
 		print("Pick a variable to change: auto/verbose")
 		return
@@ -433,6 +433,10 @@ local function changeSavedVar(var, value)
 			ZyersATALData.verbose = tonumber(value)
 		end
 		print(string.format("ATAL: Verbose level is %d.", ZyersATALData.verbose))
+	elseif var == "maxMissionCost" then
+		if value then
+			ZyersATALData.maxMissionCost = tonumber(value)
+		end
 	else
 		print("Var not recognised.")
 	end
@@ -562,7 +566,7 @@ local function infoGetter(what)
 		end
 		print("Reward priority is: " .. p)
 	else
-		print("getter options: missions/info/followers/rewards")
+		print("getter options: missions/teams/followers/rewards")
 	end
 end
 
@@ -580,8 +584,8 @@ do
 	cmdList.add = addTeam
 	cmdList.remove = removeAllTeamsFromMissionID
 		cmdList.rm = cmdList.remove
-	cmdList.change = changeSavedVar
-		cmdList.c = cmdList.change
+	cmdList.set = setSavedVar
+		cmdList.s = cmdList.set
 	cmdList.get = infoGetter
 		cmdList.g = cmdList.get
 	cmdList.help = function() print(helpMsg) end
