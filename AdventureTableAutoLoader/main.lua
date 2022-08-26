@@ -414,7 +414,7 @@ end
 
 local function setSavedVar(var, value)
 	if not var then
-		print("Pick a variable to change: auto/verbose")
+		print("Pick a variable to change: auto/verbose/maxMissionCost")
 		return
 	end
 	if var == "a" or var == "auto" then
@@ -432,11 +432,12 @@ local function setSavedVar(var, value)
 		if value then
 			ZyersATALData.verbose = tonumber(value)
 		end
-		print(string.format("ATAL: Verbose level is %d.", ZyersATALData.verbose))
+		print(string.format("verbose = %d.", ZyersATALData.verbose))
 	elseif var == "maxMissionCost" then
 		if value then
 			ZyersATALData.maxMissionCost = tonumber(value)
 		end
+		print(string.format("maxMissionCost = %d.", ZyersATALData.maxMissionCost))
 	else
 		print("Var not recognised.")
 	end
@@ -598,7 +599,7 @@ SLASH_ATAL1 = "/atal"
 SLASH_ATAL2 = "/zy"
 SlashCmdList["ATAL"] = function(cmd)
 	fixSavedVars()
-	local args = { strsplit(" ", string.lower(cmd)) }
+	local args = { strsplit(" ", cmd) }
 	cmd = args[1]
 	if cmdList[cmd] then
 		cmdList[cmd](args[2], args[3])
