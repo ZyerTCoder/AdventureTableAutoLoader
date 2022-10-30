@@ -21,8 +21,8 @@ T.Defaults.RewardPrio = {
 	{"itemID", 163036,},
 	-- Rare Korthia Anima Quest
 	{"itemID", 187517},
-	-- 9.2 Anima Item
-	{"itemID", 189544},
+	-- 9.2 Anima Items
+	{"itemID", 189544},{"itemID", 189865},
 	-- Rare Venthyr Anima (35)
 	{"itemID", 181545}, {"itemID", 181546}, {"itemID", 181547}, {"itemID", 181548},
 	{"itemID", 181550}, {"itemID", 184147}, {"itemID", 184150}, {"itemID", 184777},
@@ -69,8 +69,8 @@ T.RewardTypes = {
 	["Anima"] = {
 		-- Rare Korthia Anima Quest
 		{"itemID", 187517},
-		-- 9.2 Anima Item
-		{"itemID", 189544},
+		-- 9.2 Anima Items
+		{"itemID", 189544},{"itemID", 189865},
 		-- Rare Venthyr Anima (35)
 		{"itemID", 181545}, {"itemID", 181546}, {"itemID", 181547}, {"itemID", 181548},
 		{"itemID", 181550}, {"itemID", 184147}, {"itemID", 184150}, {"itemID", 184777},
