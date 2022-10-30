@@ -401,7 +401,7 @@ local function fixSavedVars()
 		ZyersATALData.maxMissionCost = T.Defaults.MaxMissionCost
 	end
 	local fols = C_Garrison.GetFollowers(123)
-	-- if not fols then C_Timer.NewTicker(1, fixSavedVars, 1) return end
+	if not fols then return end
 	if #fols < #ZyersATALidConv and currentCov == ZyersATALidConv.currCov then return end
 	ZyersATALidConv.currCov = currentCov
 	for _, f in pairs(C_Garrison.GetFollowers(123)) do
